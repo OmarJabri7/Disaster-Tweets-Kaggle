@@ -77,7 +77,7 @@ class DisasterProcessor:
         X_train["labels"] = y_train.values
         X_train = X_train[X_train['text'].notna()]
         X_train = X_train[X_train['length'] >= int(1)]
-        y_train["labels"] = X_train["labels"]
+        y_train = pd.DataFrame(X_train["labels"], columns=["labels"])
 
         X_test, unique_words_test = self.preprocess_data(X_test)
         X_test = X_test[X_test['text'].notna()]
