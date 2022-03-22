@@ -83,7 +83,7 @@ def lstm_v1(max_len, max_words, embedding_size, optimizer='RMSprop', dropout=0.2
                   optimizer=optimizer, metrics=['acc'])
     return model
 
-def lstm_v2(max_len, max_words, embedding_size):
+def lstm_v2(max_len, max_words, embedding_size,  X = None, weights = None):
     model = Sequential()
     model.add(Embedding(max_words, 100, input_length=max_len))
     model.add(Bidirectional(GRU(128)))
@@ -129,7 +129,7 @@ def lstm_v4(a,b,c):
                   optimizer="adam", metrics=['acc'])
     return model
 
-def lstm_v5(max_len, max_words, embedding_size, X = None):
+def lstm_v5(max_len, max_words, embedding_size, X = None, weights = None):
     model = Sequential()
     model.add(Embedding(embedding_size, 100, input_length=max_len))
     model.add(LSTM(256, batch_input_shape=(128, X.shape[0], X.shape[1]),dropout=0.3, recurrent_dropout=0.1))

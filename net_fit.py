@@ -127,7 +127,7 @@ def train_net(preprocessor, reshape=False, split = False, model="normal"):
 
         X = pad_sequences(sequences, maxlen=max(len_train_words))
 
-        X = np.asarray(X).astype('float64')
+        # X = np.asarray(X).astype('float64')
     else:
         tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased", return_dict=False)
         # X = tokenizer(X_train[feature].tolist(), pad_to_max_length=max(len_train_words), max_length=max(len_train_words))
@@ -160,18 +160,17 @@ def train_net(preprocessor, reshape=False, split = False, model="normal"):
     # model = hybrid_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = cnn_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = cnn_v0(max(len_train_words), len(words), embedding_size, X_train, weights)
-    # model = lstm_v6(max(len_train_words), len(words), embedding_size, X_train, weights)
-    model = best_cnn(max(len_train_words), len(words), embedding_size, X_train, weights)
+    model = lstm_v5(max(len_train_words), len(words), embedding_size, X_train, weights)
+    # model = best_cnn(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bnn_v1(X_train.shape[0]*0.9, max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bert_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bert_v2()
-
     
     model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
           validation_split=0.2,)
               # callbacks=[tensorboard_callback])
     if split:
-        score, acc = model.evaluate(X_val, y_val,
+        score, acc = model.evaluate([X_val], y_val,
                                     batch_size=batch_size)
         print('Test loss:', score)
         print('Test accuracy:', acc)
@@ -207,5 +206,5 @@ def train_net(preprocessor, reshape=False, split = False, model="normal"):
 
     res["result"] = y_preds
 
-    res.to_csv("data/FinalDisaster.csv")
+    res.to_csv("outputs/FinalDisaster.csv")
 

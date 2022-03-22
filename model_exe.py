@@ -106,7 +106,7 @@ def apply_net():
 
         for i in range(len(X)):
           print(X[i] + ":",emotions_test[y_hat[i]])
-        print(accuracy_score(y_hat, y_))
+        print(accuracy_score(y_hat, y_true))
 
          # disaster_res = pd.DataFrame(np.array([X],dtype=str), columns=["text"])
          # disaster_res["predicted"] = y_pred

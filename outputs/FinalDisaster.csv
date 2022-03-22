@@ -1,7 +1,7 @@
 ,text,result
 0,terrible car crash,disaster
 1,earthquake different stay safe,disaster
-2,forest fire spot goose across cannot save,NO disaster
+2,forest fire spot goose across cannot save,disaster
 3,apocalypse wildfire,disaster
 4,typhoon kill china,disaster
 5,earthquake,disaster
@@ -15,7 +15,7 @@
 18,check,NO disaster
 19,splitting follow burner follow ablaze,NO disaster
 20,beware world ablaze sierra,NO disaster
-21,burning man turban diva via,NO disaster
+21,burning man turban diva via,disaster
 22,dis people take thing run eye opener set game ablaze,NO disaster
 23,rape victim set girl burn injury set,disaster
 24,setting ablaze,disaster
@@ -24,18 +24,18 @@
 27,hope city hall build giant wooden mayoral effigy foot tall set,NO disaster
 28,hurt eye ablaze,NO disaster
 29,accident cranberry slow back traffic,disaster
-30,got love burning self damn curling swear someone need take away accident,NO disaster
+30,got love burning self damn curling swear someone need take away accident,disaster
 31,hate accident,disaster
 32,car recorder car camera vehicle large,disaster
-33,coincidence still unresolved secret past accident,NO disaster
+33,coincidence still unresolved secret past accident,disaster
 34,accident near roundabout rather,disaster
 35,pretend feel certain way feeling become genuine manga anime,NO disaster
 36,legal medical referral service call accident dogbite,disaster
-37,construction guy working store huge gauge ear bloody accident waiting happen,NO disaster
+37,construction guy working store huge gauge ear bloody accident waiting happen,disaster
 38,feel like going come,NO disaster
 39,northbound junction currently delay min due accident,disaster
 40,say met accident would super jelly,NO disaster
-41,accident hit run cold block se vista police,disaster
+41,accident hit run cold block se vista police,NO disaster
 42,accident like,disaster
 43,please donate spread training accident left paraplegic,disaster
 44,please like share new page indoor trampoline park aftershock opening,NO disaster
@@ -74,20 +74,20 @@
 77,ambulance sprinter automatic vehicle choice compliant,NO disaster
 78,ambulance even well like nearly top car laughing,NO disaster
 79,shot found dead cuff involved car officer told ambulance treat,disaster
-80,call fag going call ambulance,NO disaster
+80,call fag going call ambulance,disaster
 81,new device able target destroy blood clot science,NO disaster
-82,want send medic supply,NO disaster
-83,heroin ambulance,disaster
+82,want send medic supply,disaster
+83,heroin ambulance,NO disaster
 84,twelve feared air ambulance helicopter crash,disaster
 85,helicopter ambulance ride transfer hospital mile away cost,disaster
 86,privileged wear ambulance uniform privileged,NO disaster
-87,bartender work drunk man day,NO disaster
+87,bartender work drunk man day,disaster
 88,cop pull drunk driver safety second car hit via,disaster
 89,cop pull drunk driver safety second car hit via,disaster
 90,think un would move fraction chance,NO disaster
 91,drama queen stand drama stage certainly never world would,NO disaster
 93,step outside second get,NO disaster
-94,well first strike minion,disaster
+94,well first strike minion,NO disaster
 95,nature love burn become,NO disaster
 96,shred psych work friendship would,NO disaster
 97,example conservative burton liberal stood done nothing,NO disaster
@@ -96,16 +96,16 @@
 100,got,NO disaster
 101,probably,NO disaster
 102,longe mountain red hour,NO disaster
-103,please sign save,disaster
+103,please sign save,NO disaster
 104,allied plan annihilation german people,NO disaster
-105,please share sign petition save wild horse,NO disaster
+105,please share sign petition save wild horse,disaster
 106,national park service national stop annihilation salt river wild via change,NO disaster
 107,soul,NO disaster
 108,update salt river wild horse via change,NO disaster
 109,national park service national stop annihilation salt river wild via change,NO disaster
 110,national park service national stop annihilation salt river wild via change,NO disaster
 111,silent planet print annihilation,NO disaster
-112,sign urgent stop annihilation salt river wild,NO disaster
+112,sign urgent stop annihilation salt river wild,disaster
 113,get iced,NO disaster
 114,national park service national stop annihilation salt river wild via change,NO disaster
 115,national park service national stop annihilation salt river wild via change,NO disaster
@@ -135,7 +135,7 @@
 139,video night lucky block apocalypse wither showcase,NO disaster
 140,zombie apocalypse among,NO disaster
 141,video night lucky block apocalypse wither showcase,NO disaster
-142,universal order,disaster
+142,universal order,NO disaster
 143,patent pending stream,NO disaster
 145,might rise ash true,disaster
 146,turkey halfway,disaster
@@ -143,7 +143,7 @@
 148,never even face,NO disaster
 149,issue major warning late escape,disaster
 150,da one spear,NO disaster
-151,build army lion leader dog fight lion die like,NO disaster
+151,build army lion leader dog fight lion die like,disaster
 152,one direction pick fan army,NO disaster
 153,shark army black date stainless steel quartz men sport watch full read,NO disaster
 154,pick fan army,NO disaster
@@ -168,8 +168,8 @@
 173,probation two year pay fine,NO disaster
 174,police sketch arson,disaster
 175,fire winery arson,disaster
-176,trial date set man arson,NO disaster
-177,man connection arson man court accused,NO disaster
+176,trial date set man arson,disaster
+177,man connection arson man court accused,disaster
 178,police arrest possible arson investigation,disaster
 179,rip arson,NO disaster
 180,arson suspect linked fire caught northern,disaster
@@ -189,21 +189,21 @@
 194,bitch dont get,NO disaster
 195,new vine,NO disaster
 196,suspected serial arsonist,disaster
-197,surveillance video capture man removing flag long beach home,disaster
+197,surveillance video capture man removing flag long beach home,NO disaster
 198,serial arsonist get bail jail release,disaster
 199,arson suspect linked fire caught northern,disaster
 200,government provide free treatment acid attack victim private hospital,disaster
 201,going panic attack,NO disaster
 202,end innovation reduce attack surface,NO disaster
 203,yesterday heat attack funny relationship,NO disaster
-204,gratuitously cruel attack dying,disaster
-205,cooper super hero dog saved heart attack knew,NO disaster
-206,double ebony attack,disaster
+204,gratuitously cruel attack dying,NO disaster
+205,cooper super hero dog saved heart attack knew,disaster
+206,double ebony attack,NO disaster
 207,suspect latest attack psychological issue,disaster
 208,people tilly confused cat horrible attack win heart,NO disaster
 209,love love love massive attack angel,NO disaster
 210,many article attack labour defend see,NO disaster
-211,attack freedom information liberty,disaster
+211,attack freedom information liberty,NO disaster
 212,weird near panic attack write bathroom work nearly dreadfully miss,NO disaster
 213,black attack white married slut,NO disaster
 214,cop injured militant attack police suspected militant police post,disaster
@@ -218,11 +218,11 @@
 223,result constantly,NO disaster
 224,forgot memo getting resident concussion funny,NO disaster
 225,temple mount waving flag via,disaster
-226,fire nation,disaster
+226,fire nation,NO disaster
 227,temple mount waving flag via,disaster
 228,police simply thank protecting via,disaster
 229,peaceful happy twitter experience,NO disaster
-230,car tube installation avalanche sound output,NO disaster
+230,car tube installation avalanche sound output,disaster
 231,true throw head avalanche,NO disaster
 232,glance avalanche one look heartbeat oh walk moon get said,NO disaster
 233,repost avalanche charging,NO disaster
@@ -240,8 +240,8 @@
 245,avast avalanche,NO disaster
 246,colorado avalanche duck ticket preseason,NO disaster
 247,listen avalanche take deep breath,NO disaster
-248,men lunatic,disaster
-249,environment lone pine tree growing across country remembrance battle year,NO disaster
+248,men lunatic,NO disaster
+249,environment lone pine tree growing across country remembrance battle year,disaster
 251,raspy cool already figured battle,NO disaster
 252,video omega ruby alpha sapphire battle,NO disaster
 253,long battle spur took care knockout,NO disaster
@@ -252,29 +252,29 @@
 258,longer transport germ wake anthrax lab mishap via,disaster
 259,consequence went pathogen,NO disaster
 260,longer transport germ wake anthrax lab,disaster
-261,latest safety longer transport anthrax select agent research specimen,disaster
+261,latest safety longer transport anthrax select agent research specimen,NO disaster
 262,longer transport germ wake anthrax lab mishap,disaster
 263,stop shipping potential longer deliver package,disaster
 264,citizen education project year watchdog dugway proving,NO disaster
 265,longer transport germ wake anthrax lab mishap,disaster
-266,longer transport germ via,disaster
+266,longer transport germ via,NO disaster
 267,offbeat news stopped shipping pathogen,disaster
 268,longer transport germ wake anthrax lab mishap news,disaster
-270,attack soil involved,disaster
+270,attack soil involved,NO disaster
 271,time hedge catastrophic risk climate change asteroid impact,NO disaster
 272,take make look id still,disaster
-273,guideline medical public health management,NO disaster
+273,guideline medical public health management,disaster
 274,drone reach large,disaster
 275,way mean,NO disaster
 276,forget threat,disaster
 277,discus rogan question pathogen virus,NO disaster
 278,discus rogan question,NO disaster
 279,take make look id still,disaster
-280,seen front line fight,NO disaster
+280,seen front line fight,disaster
 281,living assault thing low risk,NO disaster
 282,anthrax,disaster
 283,take make look id still,disaster
-284,guideline medical public health management hen,NO disaster
+284,guideline medical public health management hen,disaster
 285,fight,NO disaster
 286,fight,NO disaster
 287,good mine could better alright,NO disaster
@@ -290,7 +290,7 @@
 297,blaze,NO disaster
 298,homeless blaze near,disaster
 299,eat blaze,NO disaster
-300,big buzzy kame home year,disaster
+300,big buzzy kame home year,NO disaster
 301,banging,NO disaster
 302,bitch say hot say bitch blazing,NO disaster
 303,need blazing think watt far impressive another quick little guy,NO disaster
@@ -298,20 +298,20 @@
 305,midnight song cry go reality reality erased blazing sun,NO disaster
 306,ever blazing,NO disaster
 307,ready go meet bring blazing sunshine fun time,NO disaster
-308,old lady town delta,NO disaster
+308,old lady town delta,disaster
 309,enjoying shade sun blazing cool west park,NO disaster
 310,happening rescue blazing blasting air,NO disaster
 311,night insomnia whole stop blazing real,NO disaster
 312,series wildfire northern continue least five fire,disaster
 313,hosting get blazing speed professional management unlimited option,NO disaster
 314,come join trail diversified world,NO disaster
-315,old lady town delta,NO disaster
+315,old lady town delta,disaster
 316,hot blazing even though wildfire going even big massive rocky fire,disaster
 317,people understand cant bleeding tweet everyone head hardly,NO disaster
 318,house near bleeding company,disaster
-319,wish could watch gif account posted,NO disaster
+319,wish could watch gif account posted,disaster
 320,lewis ever see video singing bleeding,NO disaster
-321,cool read though may look,NO disaster
+321,cool read though may look,disaster
 322,cut open keep singer,disaster
 323,bleeding,NO disaster
 324,promise bleeding rio whooping trick,NO disaster
@@ -325,7 +325,7 @@
 332,quickly get popular,NO disaster
 333,snap,NO disaster
 334,get follow back,NO disaster
-335,damn,NO disaster
+335,damn,disaster
 336,wow social medium really twain concert,NO disaster
 338,always one phone call away many people done chance,NO disaster
 339,well tweet fast,NO disaster
@@ -360,7 +360,7 @@
 369,literally lunch cheese curd dinner blizzard pray health,NO disaster
 370,oh see blizzard,NO disaster
 371,check new sale lizard stuck,NO disaster
-372,deck building year old daughter,NO disaster
+372,deck building year old daughter,disaster
 373,blizzard,NO disaster
 374,storm siege gaming glass wow blizzard full,NO disaster
 375,game drove blizzard,NO disaster
@@ -374,17 +374,17 @@
 383,thing,NO disaster
 384,bitch monster good blood sucker,NO disaster
 385,golden,NO disaster
-386,make related loyalty make,disaster
+386,make related loyalty make,NO disaster
 387,remind blood,NO disaster
 388,reason blood pressure medicine,NO disaster
 389,gay men donate,NO disaster
 390,new blood come make sure,NO disaster
 391,penny post octagonal black grid cancel,NO disaster
 392,seeing blood surgery regular behind desk say dentist real doctor,NO disaster
-393,sometimes blood water sometimes family bring stranger,disaster
+393,sometimes blood water sometimes family bring stranger,NO disaster
 394,type,NO disaster
 395,whole new shouting join radio,NO disaster
-396,whats bloody use bus everything one driving bus,disaster
+396,whats bloody use bus everything one driving bus,NO disaster
 397,best guest episode bloody,NO disaster
 398,bloody hot room,NO disaster
 399,bloody excited see,NO disaster
@@ -454,7 +454,7 @@
 463,body bag,NO disaster
 464,coming home body kingdom,NO disaster
 465,hot lady handbag leather shoulder tote satchel messenger cross body bag green handbag,NO disaster
-466,investigating post saying police put body,disaster
+466,investigating post saying police put body,NO disaster
 467,mistake come back body leading world armed force,NO disaster
 468,woman stylish metal chain pearl solid shoulder cross body bag golden,NO disaster
 469,woman flower printed shoulder handbag cross body metal chain satchel bag pink,NO disaster
@@ -462,7 +462,7 @@
 471,mark year since city mark anniversary,disaster
 472,last year platinum artist,NO disaster
 473,coming bomb teacher never final went salt grass bought food,NO disaster
-475,rip time atom bomb,NO disaster
+475,rip time atom bomb,disaster
 476,kerry barry got taken making bomb talk went,NO disaster
 477,think bomb raise sort great question one,NO disaster
 478,censor account suffering,NO disaster
@@ -470,18 +470,18 @@
 481,sex bomb yo,NO disaster
 482,hansel witch bomb as late,NO disaster
 483,mark amid fear eroded pacifism japan,disaster
-484,bomb,disaster
+484,bomb,NO disaster
 485,aunt gave drink game never tell though,NO disaster
 486,giving minute enjoy famous architect time bombed skyscraper,NO disaster
 487,photo bombed princess,NO disaster
 488,get call back interview thought bombed,NO disaster
 489,hour yr ago one act mass murder world history,disaster
-490,year ago bombed say,disaster
-491,look like bombed look monster,NO disaster
+490,year ago bombed say,NO disaster
+491,look like bombed look monster,disaster
 492,bombed nuclear weapon little plane gay,disaster
 493,deal either deal abandon program get deal right wing love,NO disaster
 494,picture cute sleeping puppy photo bombed demon,NO disaster
-495,remind bombed asylum applicant,NO disaster
+495,remind bombed asylum applicant,disaster
 496,get,NO disaster
 497,bombed fake bolt chat everyone thought bolt ended,NO disaster
 499,dont really talk murder campaign murder,NO disaster
@@ -511,10 +511,10 @@
 523,ash disaster collapse unfolded bridge telegraph,disaster
 524,sport batting collapse bridge,disaster
 525,injured bridge collapse swiss kosher accident hotel,disaster
-526,scary thought today would taking front burning building,NO disaster
-527,sound like song would hear movie walking away burning building car,NO disaster
+526,scary thought today would taking front burning building,disaster
+527,sound like song would hear movie walking away burning building car,disaster
 528,run burning building,disaster
-529,run burning work tech,NO disaster
+529,run burning work tech,disaster
 530,like folk said building city trying get information prevent,NO disaster
 531,like burning building knowing originally,disaster
 532,kou like,NO disaster
@@ -528,13 +528,13 @@
 540,sure folk rush burning building grateful,disaster
 541,jane fire building context driver,disaster
 542,change,NO disaster
-543,security want help case emergency like building fire leaving,NO disaster
+543,security want help case emergency like building fire leaving,disaster
 544,thats would building fire,disaster
 545,apartment across street fire right second time building caught fire,disaster
 546,testimony human spirit set fire office building,disaster
 547,multiple building fire downtown fire threatening level entire,disaster
 548,building shelled fire casualty wounded,disaster
-549,lightening struck unit building development check wall recent post,disaster
+549,lightening struck unit building development check wall recent post,NO disaster
 550,indiscriminate shelling castle set st building,disaster
 551,building fire behind,disaster
 552,two building involved fire street,disaster
@@ -543,7 +543,7 @@
 555,multiple building fire downtown fire threatening level entire,disaster
 556,happy pensioner watching report unsafe cladding catching fire,disaster
 557,multiple fire,disaster
-558,family home burned ready go back school,disaster
+558,family home burned ready go back school,NO disaster
 559,burned,NO disaster
 560,burned stake,NO disaster
 561,let tell brought today heat burned,NO disaster
@@ -560,7 +560,7 @@
 572,know burned week ago similar spot getting pitch save inn,NO disaster
 573,keep calling never stop loving got,NO disaster
 574,heart burned somehow still work,NO disaster
-575,wired fire burning budget,NO disaster
+575,wired fire burning budget,disaster
 576,chopped finger painful wear pepper,NO disaster
 577,burning fossil fuel making global weather temp biggest flood past year,disaster
 578,currently burning skin,NO disaster
@@ -574,15 +574,15 @@
 586,burning legion returned,disaster
 587,burning house via,disaster
 588,burning sure burn,NO disaster
-589,put ton still burning,disaster
+589,put ton still burning,NO disaster
 590,blizzard detail new dungeon raid world burning,NO disaster
 591,burning killing,disaster
 592,common breaker trip threshold protect wire used power outlet,NO disaster
 593,burning flame,disaster
 594,fire burning apartment,disaster
 595,one challenge tough enough people burning,NO disaster
-596,getting rid every last drop life crawl burning building life,NO disaster
-597,brave people opinion know could save burning building house salute,NO disaster
+596,getting rid every last drop life crawl burning building life,disaster
+597,brave people opinion know could save burning building house salute,disaster
 598,rocky fire burning ca still threatening state one nearly dozen burning,disaster
 599,video man ogre claw burning,NO disaster
 600,sure folk rush burning building grateful,disaster
@@ -596,45 +596,45 @@
 608,drove past field fire bush fire used get south,disaster
 609,bush food,disaster
 610,mother nature halt blue mountain,NO disaster
-611,say bush fire reason hot,NO disaster
+611,say bush fire reason hot,disaster
 612,cause first victim multiple fire first bush,disaster
 613,like goat dislike bush fire probably video,NO disaster
 614,time bush fire living,disaster
 615,much volcano bush fire raging put none believer mention,disaster
 616,fire make conspiracy population control bush,NO disaster
 617,robot could reduce civilian casualty calling ban premature,disaster
-618,let hope concert end zero casualty amen,NO disaster
-619,weapon support bloody air war,NO disaster
+618,let hope concert end zero casualty amen,disaster
+619,weapon support bloody air war,disaster
 620,woman child casualty violence,disaster
 621,fair change always unfortunate like welly,NO disaster
 622,memorial day year august total casualty god forgive,NO disaster
 623,robot could reduce civilian casualty calling ban premature,disaster
-624,always casualty right thing especially going cost,NO disaster
-625,think bunch untrained people firing back going cause casualty,NO disaster
+624,always casualty right thing especially going cost,disaster
+625,think bunch untrained people firing back going cause casualty,disaster
 626,trump prefer civilian,disaster
 627,million forget,disaster
-628,weapon support bloody air war,NO disaster
+628,weapon support bloody air war,disaster
 629,appreciate group people everyone hate much police mass casualty today,disaster
 630,look casualty number dead side see,disaster
 631,ally forecast invasion japan minimum million casualty,disaster
 632,call,NO disaster
 633,litigation attorney claim specialist casualty bodily injury job,NO disaster
-634,social casualty,NO disaster
+634,social casualty,disaster
 635,first casualty war tony blair case,disaster
 636,wine become casualty political campaign,disaster
 637,oh coffee po casualty come perfect coffee,NO disaster
 638,associated agency property casualty account manager job insurance,NO disaster
 639,climate first major casualty via,disaster
-640,deal warship repay russia via,disaster
+640,deal warship repay russia via,NO disaster
 641,casualty ash,disaster
-642,keep alive sound intensity level keeping auditory effect casualty,NO disaster
-643,give money hear social casualty live buck give,NO disaster
-644,reach,disaster
+642,keep alive sound intensity level keeping auditory effect casualty,disaster
+643,give money hear social casualty live buck give,disaster
+644,reach,NO disaster
 645,read casualty know help spread word,NO disaster
 646,business casualty,disaster
-647,disconnected reason close stranger heartbreak girl reject social casualty,NO disaster
+647,disconnected reason close stranger heartbreak girl reject social casualty,disaster
 648,fox news biggest medium catastrophe people love living,NO disaster
-649,twist ultimate preparedness prepare,disaster
+649,twist ultimate preparedness prepare,NO disaster
 650,evil book got catastrophe saying,NO disaster
 651,catastrophe,NO disaster
 652,wonderful person,NO disaster
@@ -648,7 +648,7 @@
 660,wolf face catastrophe population plummeted,NO disaster
 661,two show summer catastrophe unreal,NO disaster
 662,catastrophic loss love barn scene short shirtless dominion,NO disaster
-663,something catastrophic tune,disaster
+663,something catastrophic tune,NO disaster
 664,following catastrophic event united state president first post,disaster
 665,catastrophic history,disaster
 666,rise wage going catastrophic impact wage going,NO disaster
@@ -659,14 +659,14 @@
 671,cancer everything catastrophic feel hit rock start got,NO disaster
 672,catastrophic outcome may come faster,disaster
 673,stop extreme regulation hurt middle class,NO disaster
-674,consequence could also informed security primarily,disaster
+674,consequence could also informed security primarily,NO disaster
 675,gaming learning legacy catastrophic plume ash eruption,disaster
 676,want sell boat car truck,disaster
 677,long baby blissfully unaware catastrophic day happy fed,NO disaster
 678,catastrophic pant failure work tying jacket around waist til got thrift,NO disaster
 679,society collapse due catastrophic food shortage say study,disaster
 680,dear anyone family alive,NO disaster
-681,something catastrophic tune via,disaster
+681,something catastrophic tune via,NO disaster
 682,chemical brother play armory tomorrow emergency bay area announcement,NO disaster
 683,fake toxic drill emergency responder pope million visit,disaster
 684,emergency crew scene chemical spill detail come,disaster
@@ -679,13 +679,13 @@
 691,emergency service chemical smell,NO disaster
 692,brigade exercise southern,disaster
 693,emergency due chemical spill factory near,disaster
-694,god push edge cliff two thing may catch teach,NO disaster
+694,god push edge cliff two thing may catch teach,disaster
 695,photographer climb capture bride groom,NO disaster
 696,might go losing drive cliff fall void,NO disaster
 697,hope fall,NO disaster
 698,hope fall cliff,NO disaster
 699,ugly piece trash hope fall cliff,NO disaster
-700,huge cliff landslide road watch moment cliff collapse huge chunk rock fall onto,NO disaster
+700,huge cliff landslide road watch moment cliff collapse huge chunk rock fall onto,disaster
 701,boy still got man rumor going back de,NO disaster
 702,man cliff fall,NO disaster
 703,pitcher gracefully lose fall cliff land throwing hard tell get,NO disaster
@@ -693,12 +693,12 @@
 705,people would happily see fall,NO disaster
 706,keen hope fall cliff keen fitness,NO disaster
 707,look tasty problem cliff might fall sea due coastal erosion would crumbly,NO disaster
-708,interview collapse materialism best listen,NO disaster
+708,interview collapse materialism best listen,disaster
 709,tax revenue collapse debt crisis,disaster
 710,tent collapse story,disaster
 711,tent collapse story,disaster
 712,knew cain going either someone collapse later,NO disaster
-713,interview collapse materialism best listen,NO disaster
+713,interview collapse materialism best listen,disaster
 714,west side water main break cause street collapse el time,disaster
 715,would collapse,disaster
 716,guardian tax revenue collapse debt crisis guardian,disaster
@@ -707,7 +707,7 @@
 719,technical collapse new low,NO disaster
 720,directly responsible collapse energy,disaster
 721,tent collapse story,disaster
-722,ash rampant humiliate rival,disaster
+722,ash rampant humiliate rival,NO disaster
 723,tax revenue collapse debt crisis talk continue third,disaster
 724,already testament devotion politics,disaster
 725,carpenter built house would ask carpenter rebuild,NO disaster
@@ -717,15 +717,15 @@
 729,ceiling wall upon darkness,NO disaster
 730,bathroom,NO disaster
 731,link fire lane roof,disaster
-732,saw crazy edit twisted mixed tut,disaster
+732,saw crazy edit twisted mixed tut,NO disaster
 733,view storm wind damage,disaster
 734,panic city party city full,NO disaster
 735,grandma,NO disaster
 736,inquiry furniture retailer,NO disaster
-737,crowd tent told stay circus worker first told,NO disaster
+737,crowd tent told stay circus worker first told,disaster
 738,breather today oh god went lunch like sack bone car,NO disaster
 739,room full people lifting collide excited,NO disaster
-740,someday find place dream reality,disaster
+740,someday find place dream reality,NO disaster
 741,saying freak collide start min freak,NO disaster
 742,added video day collide,NO disaster
 743,even star moon collide never want back life,NO disaster
@@ -744,7 +744,7 @@
 757,know woke report thought favorite world,NO disaster
 758,currently reading see dresser waiting get read,NO disaster
 760,running stair bad idea full floor,NO disaster
-761,maritime sand carrier maru chemical tanker maru nautical mile,disaster
+761,maritime sand carrier maru chemical tanker maru nautical mile,NO disaster
 762,oh sending thought head coach dan left game stretcher,NO disaster
 763,remember beau slip slide,NO disaster
 764,two favorite thing one great,NO disaster
@@ -763,11 +763,11 @@
 778,guy whipping double yellow line mustang crash curb light pole,disaster
 779,new train crash kill,disaster
 780,crash,disaster
-782,school best shot crash college football,disaster
+782,school best shot crash college football,NO disaster
 783,look rainbow crash pie,disaster
-784,thief crash dealership gate steal four vehicle killeen,NO disaster
+784,thief crash dealership gate steal four vehicle killeen,disaster
 785,time enjoy summer crash course two never take summer class,NO disaster
-786,hill blocked crash past traffic back take lake get around,disaster
+786,hill blocked crash past traffic back take lake get around,NO disaster
 787,car motorcycle crash nine,disaster
 788,learn join crash course,NO disaster
 789,car crash pretty fun film,NO disaster
@@ -776,9 +776,9 @@
 792,back one young got raging temperature gone tea,NO disaster
 793,rip face front wish could,NO disaster
 794,almost listening walk moon dont care love,NO disaster
-795,back another car hopped like slow,disaster
+795,back another car hopped like slow,NO disaster
 796,showing think,NO disaster
-797,new document suggest server may fan mail must,NO disaster
+797,new document suggest server may fan mail must,disaster
 798,bin laden family plane landing far three member,disaster
 799,right stream,NO disaster
 801,news bin laden family plane landing far three,disaster
@@ -803,7 +803,7 @@
 820,huge crush necessarily dont think look way,NO disaster
 821,crushed mi run pace,NO disaster
 822,girl nearly level crushed major grinding,NO disaster
-823,set negative prophecy negative,disaster
+823,set negative prophecy negative,NO disaster
 824,old man slowly ice cream ordered banana waitress crushed,NO disaster
 825,nothing love seeing bear fan get hope dream,NO disaster
 826,one episode undo season kai join beat get,NO disaster
@@ -821,7 +821,7 @@
 838,big great welcoming,NO disaster
 839,love really think massive crush got,NO disaster
 840,curfew like situation sit dad,NO disaster
-841,black refugee cannot attend west concert due curfew black,NO disaster
+841,black refugee cannot attend west concert due curfew black,disaster
 842,bedtime gotten later good time point regular curfew would,NO disaster
 843,know crazy strict gave curfew,NO disaster
 844,pretty,NO disaster
@@ -833,9 +833,9 @@
 850,know curfew havoc fest,NO disaster
 851,given curfew,NO disaster
 852,big hanging curfew,NO disaster
-853,happy report quite cyclone development time,NO disaster
+853,happy report quite cyclone development time,disaster
 854,come next episode scorpion cyclone,NO disaster
-855,revival cyclone football begin,disaster
+855,revival cyclone football begin,NO disaster
 856,appeal cardinal bo dear brother sister recent cyclone,NO disaster
 857,cyclone hit,disaster
 858,cyclone,disaster
@@ -851,15 +851,15 @@
 868,red tropical cyclone alert china northern island,disaster
 869,curtain open black cyclone ticket,NO disaster
 870,may super stock keeling mustang barracuda cyclone,NO disaster
-871,damage recover negative social medium update,disaster
+871,damage recover negative social medium update,NO disaster
 872,damage come plan,NO disaster
 873,one historic property repair sandy damage,disaster
 874,extreme position lack debate increase divide trust damage goodwill,NO disaster
 875,limited put run,NO disaster
-876,never riding would damage reputation,disaster
+876,never riding would damage reputation,NO disaster
 877,alpine city park damage,disaster
 878,got first damage today,disaster
-879,zero damage horrible product,disaster
+879,zero damage horrible product,NO disaster
 880,oppression danger coming soon album,NO disaster
 881,used really think danger movie,NO disaster
 882,think finally home go,NO disaster
@@ -871,17 +871,17 @@
 888,please tell might danger knew,NO disaster
 889,devil wear still one film,NO disaster
 890,clear present danger,NO disaster
-891,said put patient life danger time whats like bigger violation,NO disaster
+891,said put patient life danger time whats like bigger violation,disaster
 892,lot business operate outskirt never feel danger,NO disaster
 893,happy received text parasite transplantee virus kill kidney,NO disaster
-894,last hope drop dead,disaster
+894,last hope drop dead,NO disaster
 895,thought dead glass get second though considered epic failure according maker recent,NO disaster
-896,dead,disaster
-897,problem dead,disaster
-898,hope ross dead,NO disaster
+896,dead,NO disaster
+897,problem dead,NO disaster
+898,hope ross dead,disaster
 899,dead as truth pay gone use,NO disaster
 900,believe,NO disaster
-901,ross dead know unconscious dramatic tease,NO disaster
+901,ross dead know unconscious dramatic tease,disaster
 902,ross better,NO disaster
 903,village dead,disaster
 904,believing ross,NO disaster
@@ -894,25 +894,25 @@
 911,real mother dead wrong,NO disaster
 912,way ross,NO disaster
 913,incredible character heart broken actually miss,NO disaster
-914,black death death,disaster
+914,black death death,NO disaster
 915,video camp channel,NO disaster
 916,worry one like,NO disaster
 917,console red ring death part repair full read,NO disaster
-918,headache death,disaster
+918,headache death,NO disaster
 919,confession little hamster room cold froze,NO disaster
 920,wall going death year water leak lack,disaster
 921,deal result terrorism death truth revolt,disaster
 922,look like death star,NO disaster
-923,death certainty life,disaster
+923,death certainty life,NO disaster
 924,single death many death,NO disaster
 925,spirituality born awakening near death experience,disaster
 926,actually death take way longer think,NO disaster
-927,day look like death see mo city chick today,NO disaster
-928,death,disaster
-929,reading came across couple death read,NO disaster
-930,death,disaster
+927,day look like death see mo city chick today,disaster
+928,death,NO disaster
+929,reading came across couple death read,disaster
+930,death,NO disaster
 931,bigamist wife death pregnant wife child,NO disaster
-932,health woman account smoking,NO disaster
+932,health woman account smoking,disaster
 933,series death one right another book month death,NO disaster
 934,profit death people claim fighting make,NO disaster
 935,death regular warfare used,NO disaster
@@ -963,7 +963,7 @@
 980,last day someone,NO disaster
 981,heavy flood water,disaster
 982,dismay summer poetry,NO disaster
-983,horror community ostensibly macabre contribute,NO disaster
+983,horror community ostensibly macabre contribute,disaster
 984,house owner told demolish extension news,NO disaster
 985,terrorist demolish tire repair shop structure,disaster
 986,salvation army bid demolish cottage,NO disaster
@@ -993,8 +993,8 @@
 1010,really,NO disaster
 1011,one favorite restaurant put hope one go hope,NO disaster
 1012,six west bank home international middle east medium center,disaster
-1013,house exposed corruption,disaster
-1015,residential commercial builder,disaster
+1013,house exposed corruption,NO disaster
+1015,residential commercial builder,NO disaster
 1016,dude,NO disaster
 1017,fix charger,NO disaster
 1018,ball,NO disaster
@@ -1003,19 +1003,19 @@
 1021,try eat healthy seriously like arm move know entire,NO disaster
 1022,house set saved demolition charity,disaster
 1023,draw day daily football selection service,NO disaster
-1024,demolition flooding,disaster
+1024,demolition flooding,NO disaster
 1025,cemetery demolition cultural group,disaster
 1026,show auto part celebrity demolition thanks celebrity great,NO disaster
 1027,apartment marked demolition,disaster
-1028,general news house waterway begin mile via full story,disaster
+1028,general news house waterway begin mile via full story,NO disaster
 1029,billy house final show new,NO disaster
-1030,demolition mean flint michigan fate metropolis,NO disaster
-1031,house live affordable housing,disaster
+1030,demolition mean flint michigan fate metropolis,disaster
+1031,house live affordable housing,NO disaster
 1032,tag team awesome song scary looking,NO disaster
 1033,problem motel demolition,NO disaster
 1034,demolition done away throwing flesh sin,NO disaster
-1035,house live affordable housing,disaster
-1036,demolition underway stadium stay throughout,NO disaster
+1035,house live affordable housing,NO disaster
+1036,demolition underway stadium stay throughout,disaster
 1037,pray attack enemy derail ur destiny blocked lord flood ur life blessing,NO disaster
 1038,pray attack enemy derail ur destiny blocked lord flood ur life blessing,NO disaster
 1039,two train derail central,disaster
@@ -1026,8 +1026,8 @@
 1044,derail real hell damn,NO disaster
 1045,try summer treat derail diabetes meal,NO disaster
 1046,pray attack enemy derail ur destiny blocked lord flood ur life blessing,NO disaster
-1047,eruption questionable financial dealing derail campaign via,disaster
-1048,premature interest rate increase could derail interest rate,disaster
+1047,eruption questionable financial dealing derail campaign via,NO disaster
+1048,premature interest rate increase could derail interest rate,NO disaster
 1049,course effort address beyond would derail obvious,NO disaster
 1050,people even ride,NO disaster
 1051,derail real hell damn,NO disaster
@@ -1047,7 +1047,7 @@
 1065,photo green line derailment,disaster
 1066,train village youth saved many group villager saved life two,disaster
 1067,green passenger due derailment however service,disaster
-1068,great photo green line derailment one hurt,disaster
+1068,great photo green line derailment one hurt,NO disaster
 1069,latest prabhu call derailment natural official feel economic,disaster
 1070,green line service derailment near expect,disaster
 1071,green line train resume service south side green line service four,disaster
@@ -1055,7 +1055,7 @@
 1073,rail disaster,disaster
 1074,train village youth saved many life,disaster
 1075,twitter said bet twitter broke desolate careful,NO disaster
-1076,house left,disaster
+1076,house left,NO disaster
 1077,sank night submarine light sat stale beer afternoon desolate,NO disaster
 1078,heaven utterly say people two,NO disaster
 1079,desolate part love via,NO disaster
@@ -1069,7 +1069,7 @@
 1087,follow go brutally lovely mum,NO disaster
 1088,searching desolate part beach cell service mile away,NO disaster
 1089,feeling take,NO disaster
-1090,recall blighted desolate corporate,NO disaster
+1090,recall blighted desolate corporate,disaster
 1091,desolation wilderness kodak graph,NO disaster
 1092,desolation,NO disaster
 1093,video desolation beacon blast bombardment,NO disaster
@@ -1098,7 +1098,7 @@
 1116,real glass seven always villain want destroy,NO disaster
 1117,cast destroy set across,NO disaster
 1118,medium stock getting via,NO disaster
-1119,see may may help help government,NO disaster
+1119,see may may help help government,disaster
 1120,two people dead house two people reportedly,disaster
 1121,black eye space battle star fleet ship,NO disaster
 1122,carp erased pretty sure,NO disaster
@@ -1111,7 +1111,7 @@
 1129,remember nuclear occurrence never ever happen yet highly likely recur,NO disaster
 1130,travel open get two week lesson learned,disaster
 1131,thought glad,NO disaster
-1132,home zero join sign,disaster
+1132,home zero join sign,NO disaster
 1133,dude enormous blizzard,NO disaster
 1134,ally republican party war clarion,NO disaster
 1135,evil,NO disaster
@@ -1119,17 +1119,17 @@
 1137,world legion revealed burning legion return bring destruction,NO disaster
 1138,written play destruction lady franklin mull,NO disaster
 1139,need motorway fume present extra noise,NO disaster
-1140,new ran report human right abuse forest destruction,NO disaster
+1140,new ran report human right abuse forest destruction,disaster
 1141,put tail slip,NO disaster
 1142,hand destruction innocent young,NO disaster
 1143,crackdown destruction restricted crackdown week,NO disaster
 1144,authority take account petition destruction,NO disaster
 1145,life cheap evil profit,NO disaster
 1146,day death destruction people please take sometime remember think,NO disaster
-1147,one three survivor destruction,NO disaster
-1148,let stand evidence horrible destruction potentially wrought noble,NO disaster
-1149,new ran report human right abuse forest destruction,NO disaster
-1150,related bureaucrat singled destruction global atlantic,disaster
+1147,one three survivor destruction,disaster
+1148,let stand evidence horrible destruction potentially wrought noble,disaster
+1149,new ran report human right abuse forest destruction,disaster
+1150,related bureaucrat singled destruction global atlantic,NO disaster
 1151,crackdown destruction restricted crackdown definitely,NO disaster
 1152,start car use detonate evil,NO disaster
 1153,track brown detonate,NO disaster
@@ -1143,7 +1143,7 @@
 1162,detonate determine hoax feel comfortable opening,NO disaster
 1163,track brown detonate,NO disaster
 1164,brown detonate producer brown present,NO disaster
-1165,first grenade thought one apparently bomb squad plan detonate around,disaster
+1165,first grenade thought one apparently bomb squad plan detonate around,NO disaster
 1166,ignition knock fit,NO disaster
 1167,detonation fashionable electronic watch couple leisure,NO disaster
 1168,open detonation indicator irretrievable fashion financial,NO disaster
@@ -1152,11 +1152,11 @@
 1172,detonation fashionable electronic watch couple leisure,NO disaster
 1173,detonation fashionable electronic watch couple leisure,NO disaster
 1174,detonation fashionable electronic watch couple leisure,NO disaster
-1175,ignition knock fit legacy,NO disaster
+1175,ignition knock fit legacy,disaster
 1176,ignition knock,NO disaster
 1177,detonation land mine height,NO disaster
 1178,ignition knock sensor original equipment,NO disaster
-1179,via detonation land mine,disaster
+1179,via detonation land mine,NO disaster
 1180,ignition knock standard,NO disaster
 1181,ignition knock sensor,NO disaster
 1182,link let pick city bomb size altitude,NO disaster
@@ -1176,7 +1176,7 @@
 1197,channel got worried,NO disaster
 1198,longer best character much give going,NO disaster
 1199,mommy,NO disaster
-1200,already missing,disaster
+1200,already missing,NO disaster
 1201,absolutely ross,NO disaster
 1202,girl actually meeting boy,NO disaster
 1203,director first cannot begin tell devastation,disaster
@@ -1186,7 +1186,7 @@
 1207,despite past devastation fortunately forgiveness mutual respect peace remember,NO disaster
 1208,midst devastation something within always point way,disaster
 1209,sad reminder nuclear devastation post,disaster
-1210,devastation part,disaster
+1210,devastation part,NO disaster
 1211,devastation atom making mandatory film human suffering shown,disaster
 1212,country next one week ago economic devastation,NO disaster
 1213,profile legacy cultural devastation attempt white house,disaster
@@ -1197,11 +1197,11 @@
 1218,one feel like much responsibility one anything disaster,NO disaster
 1219,trying route sister lafayette indy west hope,disaster
 1220,time end disaster rail,disaster
-1221,see politician leading disaster,disaster
+1221,see politician leading disaster,NO disaster
 1222,paladin going disaster,disaster
 1223,acquisition even bigger disaster ever,disaster
 1224,overpopulation woman incapable keeping leg together save world endless brat want run disaster,NO disaster
-1225,harper get calling government via,disaster
+1225,harper get calling government via,NO disaster
 1226,disaster secret,disaster
 1227,disaster,disaster
 1228,deepwater drill company gain transocean one company associated deepwater horizon oil well disaster,disaster
@@ -1224,7 +1224,7 @@
 1246,record hurricane drought,disaster
 1247,drought report list se,disaster
 1248,best perennial,NO disaster
-1249,el monte attempt shed reputation delinquency drought star,disaster
+1249,el monte attempt shed reputation delinquency drought star,NO disaster
 1250,also take gal water produce drought chaos,disaster
 1251,thought drought,disaster
 1252,record hurricane drought,disaster
@@ -1235,7 +1235,7 @@
 1257,record hurricane drought anticipate,disaster
 1258,drought giant marketing campaign star war turn,NO disaster
 1259,record hurricane drought via,disaster
-1260,swear there bud drought,disaster
+1260,swear there bud drought,NO disaster
 1261,incredibly sad heartbroken going drown sorrow food watch night,NO disaster
 1262,bout get shower drown,NO disaster
 1263,cant breathe feel throat want die let drown tear please,NO disaster
@@ -1260,16 +1260,16 @@
 1282,hundred migrant feared news waar,disaster
 1283,getting yet still search,NO disaster
 1284,hundred feared migrant boat,disaster
-1285,rain,disaster
-1286,jeff sally ben hoodie abandoned sacrifice lost,NO disaster
+1285,rain,NO disaster
+1286,jeff sally ben hoodie abandoned sacrifice lost,disaster
 1287,tried nowhere near thought based ketchup wasnt bad,NO disaster
 1288,hundred feared migrant boat hundred migrant feared,disaster
 1289,pretty sure almost time pool today thanks,NO disaster
-1290,almost sea,disaster
+1290,almost sea,NO disaster
 1291,hard time everything literally,NO disaster
 1292,boy save autistic brother dove pool save autistic,NO disaster
-1293,family toddler rare hundred,NO disaster
-1294,told would lend,disaster
+1293,family toddler rare hundred,disaster
+1294,told would lend,NO disaster
 1295,desperate like mouse septic,NO disaster
 1296,one know know survive,NO disaster
 1297,experience actual,NO disaster
@@ -1279,12 +1279,12 @@
 1301,boy save autistic brother dove pool save autistic brother,NO disaster
 1302,boy save autistic brother dove pool save autistic brother,NO disaster
 1303,girl centipede press limited full,NO disaster
-1304,migrant erecting monument year shed tear powerful greed die,disaster
+1304,migrant erecting monument year shed tear powerful greed die,NO disaster
 1305,sound half bad,NO disaster
 1306,boy save autistic brother,NO disaster
-1307,oh storm attack bullet thing made crazy ricochet attack,NO disaster
-1308,dust storm chase scene pretty damn,NO disaster
-1309,new mad show lovely dust storm,NO disaster
+1307,oh storm attack bullet thing made crazy ricochet attack,disaster
+1308,dust storm chase scene pretty damn,disaster
+1309,new mad show lovely dust storm,disaster
 1310,recent project storm,NO disaster
 1311,dust storm rolling onto base august,disaster
 1312,new mad show lovely dust storm combat magnum new mad,NO disaster
@@ -1303,9 +1303,9 @@
 1325,manuscript suspiciously earthquake science journal could rock world,disaster
 1326,sister new video coming apocalyptic earthquake tsunami,disaster
 1327,earthquake south user earthquake information,disaster
-1328,anchorage,disaster
+1328,anchorage,NO disaster
 1329,magnitude ca,disaster
-1330,magnitude anchorage ak,disaster
+1330,magnitude anchorage ak,NO disaster
 1332,electrocute,NO disaster
 1333,already met special someone even know,NO disaster
 1334,wish electrocute time second,NO disaster
@@ -1326,7 +1326,7 @@
 1349,let electrocute,NO disaster
 1350,electrical tape wrapped around charger like month want get,NO disaster
 1351,almost,NO disaster
-1352,south side factory worker pay penalty,NO disaster
+1352,south side factory worker pay penalty,disaster
 1353,realize could last night,NO disaster
 1354,fish whale whale thing fish get,NO disaster
 1355,south side factory worker pay penalty news,disaster
@@ -1338,9 +1338,9 @@
 1361,short hair never look cute look like vagrant,NO disaster
 1362,get,NO disaster
 1363,please fix problem zombie disable suit floor die auto magically,NO disaster
-1364,hope get today work,NO disaster
+1364,hope get today work,disaster
 1365,oh certainly would live,NO disaster
-1366,emergency garage gate service entrance agent set,NO disaster
+1366,emergency garage gate service entrance agent set,disaster
 1367,motor hot deal manual transmission shift hand brake handle,NO disaster
 1368,seed vegetable fruit variety garden kit emergency survival gear full,NO disaster
 1369,emergency need part,NO disaster
@@ -1349,12 +1349,12 @@
 1372,survival kit whistle fire starter wire saw cree torch emergency blanket knife full,NO disaster
 1373,registered nurse er emergency room supplemental health nursing job job,NO disaster
 1374,job case,NO disaster
-1375,hey said tell dad call,NO disaster
+1375,hey said tell dad call,disaster
 1376,leaving back one single thing emergency,NO disaster
 1377,emergency hop,NO disaster
 1378,safe prepare emergency kit alertness woman child also,NO disaster
 1379,municipal emergency plan crisis,disaster
-1380,take another beating summer city emergency plan,disaster
+1380,take another beating summer city emergency plan,NO disaster
 1381,sri past need plan emergency,NO disaster
 1382,take another beating summer city emergency another day watching,NO disaster
 1383,spoke get funded emergency drought act plan story,disaster
@@ -1363,17 +1363,17 @@
 1386,picture jeff wonder emergency plan,NO disaster
 1387,emergency drinking water guide,NO disaster
 1388,video hunting optic emergency exit,NO disaster
-1389,take another beating summer city emergency plan,disaster
-1390,take another beating summer city emergency plan,disaster
+1389,take another beating summer city emergency plan,NO disaster
+1390,take another beating summer city emergency plan,NO disaster
 1391,take another beating summer city emergency,NO disaster
 1392,storm prompt activation city municipal emergency city remains,disaster
-1393,emergency room refuse service payment,disaster
+1393,emergency room refuse service payment,NO disaster
 1394,call emergency service trained horse rescue,NO disaster
 1395,nursing job might great fit nurse shift manager emergency service full,NO disaster
-1396,emergency service following shark sighting,disaster
+1396,emergency service following shark sighting,NO disaster
 1397,call emergency service trained horse rescue,NO disaster
 1398,week protest service delivery lack emergency service,disaster
-1399,human resource process streamlined insofar emergency service,NO disaster
+1399,human resource process streamlined insofar emergency service,disaster
 1400,genius double pay emergency service military teacher tube driver,NO disaster
 1401,finger cut immediate reaction emergency service,NO disaster
 1402,say call dad phone dial emergency,NO disaster
@@ -1384,10 +1384,10 @@
 1407,providence health registered nurse emergency department nursing,NO disaster
 1408,recommend anyone nursing ca,NO disaster
 1409,click staff registered nurse emergency service job wa,NO disaster
-1410,experienced emergency rescue,disaster
+1410,experienced emergency rescue,NO disaster
 1411,cake,NO disaster
 1412,low take,NO disaster
-1413,become forget ever,disaster
+1413,become forget ever,NO disaster
 1414,came land tribal war turned land peace,NO disaster
 1415,tube strike latest travel update chaos,disaster
 1416,feel low take,NO disaster
@@ -1395,12 +1395,12 @@
 1418,feel take,NO disaster
 1419,projectile cloud smoke moment later shadow,NO disaster
 1420,society become every moment take fun moment,NO disaster
-1421,close eye picture world would like bot,disaster
+1421,close eye picture world would like bot,NO disaster
 1422,men escape car flame canyon crew investigating cause,disaster
 1423,latest travel update chaos telegraph,disaster
 1424,low take,NO disaster
 1425,live wild wing,disaster
-1426,guy next walk tiny office room smelling lunch evacuate,NO disaster
+1426,guy next walk tiny office room smelling lunch evacuate,disaster
 1427,rather as least know whatever eat heartburn stick,NO disaster
 1428,know ur,NO disaster
 1429,troop battle ground since deal turkey evacuate buffer zone area hence moving front,disaster
@@ -1425,22 +1425,22 @@
 1449,fight flame save oak wildfire,disaster
 1450,string concealment straight evacuation,NO disaster
 1451,school dumb set evacuation siren accident,disaster
-1452,anatomic mother help high evacuation,NO disaster
+1452,anatomic mother help high evacuation,disaster
 1453,order evacuation abandoned aircraft news,disaster
 1454,even tho getting back due evacuation could make missing,disaster
 1455,neediness taste evacuation,NO disaster
-1456,know hurricane evacuation find,disaster
+1456,know hurricane evacuation find,NO disaster
 1457,would designed building occupant evacuate report evacuation assembly site,disaster
 1458,evacuation drill fire door open got smash emergency release glass,NO disaster
 1459,jeff king report level evacuation east county line hale,disaster
 1460,ca mad river evacuation advisory ridge area,disaster
-1461,prepared crucial home evacuation find,disaster
+1461,prepared crucial home evacuation find,NO disaster
 1462,medical care facility near nuclear plant lack evacuation plan,disaster
 1463,evacuation order town time,disaster
 1464,throw wintergreen ground would explode enemy give mouth cancer,NO disaster
 1465,damn head feel like gone explode,NO disaster
 1466,happy make heart explode,NO disaster
-1467,say alliance,disaster
+1467,say alliance,NO disaster
 1468,ear explode,NO disaster
 1469,guy explode,NO disaster
 1470,actually heart beat fast fly chest explode,NO disaster
@@ -1467,10 +1467,10 @@
 1491,engine exploded trying find solution,NO disaster
 1492,hobby lobby exploded,NO disaster
 1493,lump together warehouse information explosion one divestment,disaster
-1494,explosion one morgan,NO disaster
+1494,explosion one morgan,disaster
 1495,new tempered glass screen protector film blackberry full read,NO disaster
 1496,new tempered glass screen protector film blackberry full read,NO disaster
-1497,whole explosion thing comment first time,NO disaster
+1497,whole explosion thing comment first time,disaster
 1498,ahead new paradigm injury terrorist explosion function explosion setting,disaster
 1499,video easy natural bride tutorial explosion shadow,NO disaster
 1500,least try put straw liquid one explosion,NO disaster
@@ -1492,7 +1492,7 @@
 1516,dutch crane collapse dramatic eyewitness video capture moment dutch crane,disaster
 1517,eyewitness,NO disaster
 1518,senate committee legislation block administration,NO disaster
-1519,got splashed water employee threw water one eyewitness,disaster
+1519,got splashed water employee threw water one eyewitness,NO disaster
 1520,eyewitness travel travel guide auction keep eye,NO disaster
 1521,question proven eyewitness account always,disaster
 1522,provoke outrage amid crisis famine memory,disaster
@@ -1501,38 +1501,38 @@
 1525,famine monument perished famine,disaster
 1526,alive even drink look,NO disaster
 1527,shameful,NO disaster
-1528,news radio free famine monument,disaster
+1528,news radio free famine monument,NO disaster
 1529,nonsense famine memory strong exaggeration russia sanction,disaster
 1530,would rather dwell land famine perfect rest,NO disaster
 1531,miner apartheid sa tutu bomb famine feel like yesterday,NO disaster
 1532,provoke outrage amid crisis famine memory via,disaster
 1533,protester mark year since fatal police shooting,disaster
 1534,police investigate fatal shooting highway,disaster
-1535,success final failure courage continue count,disaster
+1535,success final failure courage continue count,NO disaster
 1536,boy manslaughter boy manslaughter fatal,disaster
 1537,boy manslaughter boy manslaughter fatal,disaster
 1538,trim error led fatal safety investigation board report determined,disaster
 1539,need put feeling social result could message,NO disaster
-1541,really save people fatal intrusion interior people fly,disaster
+1541,really save people fatal intrusion interior people fly,NO disaster
 1542,investigator shift focus cause fatal fire,disaster
 1543,police continue investigate fatal shooting,disaster
 1544,boy manslaughter boy manslaughter fatal,disaster
 1545,buy release stage alternate fatality,NO disaster
-1546,la top city running fatality,disaster
+1546,la top city running fatality,NO disaster
 1547,highway patrol report pedestrian fatality post courier,disaster
-1548,get headline,disaster
+1548,get headline,NO disaster
 1549,wow red light runner intersection revealed,NO disaster
 1550,generation fatality,NO disaster
-1551,fatality,disaster
+1551,fatality,NO disaster
 1552,monkey good character banana fatality,NO disaster
 1553,flourishing sleigh bell toothsome transit,NO disaster
 1555,fatality gaming picture,disaster
 1556,south like ya name big come fatality bar minor,NO disaster
 1557,let writing suffer learn seek destroy bad live write,NO disaster
-1558,fatality,disaster
+1558,fatality,NO disaster
 1559,best way treat,NO disaster
-1560,many cancer high fatality rate year ago kill lot oncology,disaster
-1561,fatality,disaster
+1560,many cancer high fatality rate year ago kill lot oncology,NO disaster
+1561,fatality,NO disaster
 1562,favorite tore face took posted,NO disaster
 1563,fear unknown,NO disaster
 1564,market driven fear fear taken many,NO disaster
@@ -1544,16 +1544,16 @@
 1570,fear god nazir taking another stab brother threat police,NO disaster
 1571,grandma always fear way right,NO disaster
 1572,next titled live fear,NO disaster
-1573,holy someone set fire,NO disaster
-1574,pinky feel like lit fire freaky,NO disaster
-1575,fire,NO disaster
-1576,almost set house fire make,NO disaster
-1577,kindle fire fast repair service power jack charging port full read,NO disaster
+1573,holy someone set fire,disaster
+1574,pinky feel like lit fire freaky,disaster
+1575,fire,disaster
+1576,almost set house fire make,disaster
+1577,kindle fire fast repair service power jack charging port full read,disaster
 1578,got charger sparked caught fire,disaster
 1579,even like,NO disaster
 1580,watched halt catch fire,disaster
 1581,know say equivalent strawberry case would say fire,disaster
-1582,din fire,NO disaster
+1582,din fire,disaster
 1583,harry percent woman parenthood claim,NO disaster
 1584,like fire,NO disaster
 1585,collide turnpike,NO disaster
@@ -1565,22 +1565,22 @@
 1591,turnpike hour truck fire driver dead,disaster
 1592,fire ring permit jump food truck make appealing,NO disaster
 1593,last night atop fire truck,NO disaster
-1594,fire part turnpike,NO disaster
+1594,fire part turnpike,disaster
 1595,mark fire truck parade return,disaster
-1596,dude front production truck cop put,disaster
+1596,dude front production truck cop put,NO disaster
 1597,truck catch fire tree service truck caught fire around,disaster
 1598,pickup truck fire bridge snag garden state parkway,disaster
 1599,fire welcome new truck,NO disaster
 1600,truck driver turnpike fire lane still closed police say via,disaster
-1601,fire truck need,NO disaster
-1602,must educate first responder adapt emergency autistic,NO disaster
+1601,fire truck need,disaster
+1602,must educate first responder adapt emergency autistic,disaster
 1603,central first responder providing feedback third final focus group,disaster
 1604,saint university lower tuition first responder,disaster
 1605,community first responder radio tony,NO disaster
-1606,first responder tell someone riding,NO disaster
-1607,good day first responder memorial,NO disaster
-1608,alarming trend among first responder raising concern local fire department colorado,NO disaster
-1609,miss rare occasion first responder scene difference life,NO disaster
+1606,first responder tell someone riding,disaster
+1607,good day first responder memorial,disaster
+1608,alarming trend among first responder raising concern local fire department colorado,disaster
+1609,miss rare occasion first responder scene difference life,disaster
 1610,volunteer first responder today tanker fire provided cold drink,NO disaster
 1611,attention service member veteran educator first responder,NO disaster
 1612,longer wait people lafayette theater shooting first responder,disaster
@@ -1588,26 +1588,26 @@
 1614,social would like think first responder give level,NO disaster
 1615,officer shot please pray police department first,disaster
 1616,pray nation troop defend may continue watch watch first,disaster
-1617,red cross scene around canteen first responder fighting massive,NO disaster
+1617,red cross scene around canteen first responder fighting massive,disaster
 1618,kick refresh program supply first responder free eye drop,NO disaster
 1619,please pray employee resident first,disaster
 1620,every time get news see sadness needle first responder still shift tonight go home,disaster
 1621,public always ability share information police first responder,disaster
-1622,first responder cedar city community event contact meeting,NO disaster
+1622,first responder cedar city community event contact meeting,disaster
 1623,flame everywhere,NO disaster
 1624,new flame next fire pot line flame right right let em wit em,NO disaster
 1625,fire hell extant better go flame,NO disaster
 1626,went get rice whole thing tipped like flame pant like,NO disaster
-1627,read morning white moment side,NO disaster
+1627,read morning white moment side,disaster
 1628,snap tool black baseball flame full,NO disaster
 1629,half past five,NO disaster
 1630,see flame inside eye,NO disaster
-1631,waiting go flame,disaster
+1631,waiting go flame,NO disaster
 1632,go flame,NO disaster
 1633,listening flame pandora,NO disaster
 1634,think best bit absolutely,NO disaster
 1635,would anyone want hear type shin cup noodle rolling pin sing,NO disaster
-1636,laughing arsenal player corner tank,NO disaster
+1636,laughing arsenal player corner tank,disaster
 1637,unlike dive stand young boy kyle parker,NO disaster
 1638,wind see trace nose curly hair,NO disaster
 1639,free sniping hot silver round spacer bead jewelry finding fa,NO disaster
@@ -1617,30 +1617,30 @@
 1643,mix new flat double sided bottle cap choose mix full,NO disaster
 1645,via idea food cheesecake brownie always aesthetic,NO disaster
 1646,absolutely,NO disaster
-1647,lunch money falling,NO disaster
+1647,lunch money falling,disaster
 1648,see watch way much doctor,NO disaster
-1649,satisfaction knowing someone logic reasoned argument,disaster
+1649,satisfaction knowing someone logic reasoned argument,NO disaster
 1650,spot flood curved cree led work light bar fog lamp full,NO disaster
 1651,hey send,NO disaster
-1652,decide get rid flood furniture solid waste pick call solid waste,NO disaster
+1652,decide get rid flood furniture solid waste pick call solid waste,disaster
 1653,county official report coastal flood state park closed due large,disaster
 1654,flood advisory august,disaster
 1655,cree led work light lamp car truck boat mining flood beam full,NO disaster
 1656,cree led work light bar alloy spot flood diving boat full,NO disaster
 1657,cree led work light lamp car truck boat mining flood beam full,NO disaster
-1658,know soon class would flood today,NO disaster
+1658,know soon class would flood today,disaster
 1659,cree led work light lamp car truck boat mining flood beam full,NO disaster
 1660,cree led work light bar alloy spot flood diving boat full,NO disaster
 1661,flood victim need relief aid region struggle flood aftermath,disaster
 1662,flash flood watch effect perry,disaster
 1663,cree led work light bar alloy spot flood diving boat full,NO disaster
 1664,spot flood curved cree led work light bar fog lamp full,NO disaster
-1665,flooding border illegal immigrant add,disaster
+1665,flooding border illegal immigrant add,NO disaster
 1666,memorial unveiled travis county deputy flooding,disaster
-1667,damn gone flooding school like,NO disaster
+1667,damn gone flooding school like,disaster
 1668,say pipe burst flooded apartment senior center,disaster
 1669,breaking business sponge dock washed rain flooding,disaster
-1671,even fathom bad weather flooding,disaster
+1671,even fathom bad weather flooding,NO disaster
 1672,flooding update,disaster
 1673,donate help flooding victim,disaster
 1674,wow folk sorry joke must flooding feed right,NO disaster
@@ -1655,9 +1655,9 @@
 1683,video facing persecution pastor silenced hold,NO disaster
 1684,typhoon approach missing flood via,disaster
 1685,flash flood landslide possible hanna draw monsoon rain via,disaster
-1686,flood lady,NO disaster
+1686,flood lady,disaster
 1687,dried desert let know speaking flood speaking truth,NO disaster
-1688,flood occur low season river river expedition currently operating,NO disaster
+1688,flood occur low season river river expedition currently operating,disaster
 1689,flood,disaster
 1690,blame claim state use relief even,disaster
 1691,grass fire near forest grove sparked rock struck,disaster
@@ -1697,15 +1697,15 @@
 1725,save current hail,NO disaster
 1726,tried destroy man boy,NO disaster
 1727,new warning central hill hail affecting could later,disaster
-1728,hail,disaster
+1728,hail,NO disaster
 1729,twin storm blow,disaster
 1730,free hailstorm,disaster
-1731,boston yesterday intense photo,disaster
+1731,boston yesterday intense photo,NO disaster
 1732,hailstorm came early,disaster
 1733,boston,disaster
 1734,yesterday crazy pic via herald,NO disaster
 1735,get hailstorm come catch screening beer,disaster
-1736,look like tree yard spear style bald hailstorm,NO disaster
+1736,look like tree yard spear style bald hailstorm,disaster
 1737,hailstorm flash flooding slam knock power customer,disaster
 1738,hailstorm thunder artful,disaster
 1739,caller say stopping overpass blocking lane,disaster
@@ -1717,7 +1717,7 @@
 1745,passenger abandoned station hailstorm,disaster
 1746,hailstorm clash gem giveaway visit profile get guide get gem,NO disaster
 1747,mental health self harm feeling fit one day could,NO disaster
-1748,harsh penalty legal firearm owner straw purchase firearm gang member intend cause,NO disaster
+1748,harsh penalty legal firearm owner straw purchase firearm gang member intend cause,disaster
 1749,anger acid harm vessel anything,NO disaster
 1750,politician false allegation attack harm,NO disaster
 1751,bear beat writer fan get actual harm shut hell,NO disaster
@@ -1732,11 +1732,11 @@
 1760,said overtake,NO disaster
 1761,recall shield tablet possible fire,disaster
 1762,center dashboard hazard lamp control switch panel,NO disaster
-1763,hazard go crazy striker,NO disaster
+1763,hazard go crazy striker,disaster
 1764,parent household hazard go away,NO disaster
-1765,con el crack de saint episcopal school,disaster
+1765,con el crack de saint episcopal school,NO disaster
 1766,hazard,NO disaster
-1767,choking hazard prompt recall kraft cheese single,NO disaster
+1767,choking hazard prompt recall kraft cheese single,disaster
 1768,hazard terry mention,NO disaster
 1769,add,NO disaster
 1770,hazard,NO disaster
@@ -1764,7 +1764,7 @@
 1792,nice guessing heat wave,NO disaster
 1793,activist protest pipeline canada shell oh prepare another heat wave,disaster
 1794,heat social autopsy disaster eric,disaster
-1795,heat wave end really tomorrow still time another one thing end heat,NO disaster
+1795,heat wave end really tomorrow still time another one thing end heat,disaster
 1796,japan heat wave death toll surge via,disaster
 1797,middle east cause crippling heat wave,disaster
 1798,share handle heat keep cool,NO disaster
@@ -1781,7 +1781,7 @@
 1809,friend mine last year load,NO disaster
 1810,piling wealth thinking would last forever description people surah reflect,NO disaster
 1811,come watch bash face,NO disaster
-1812,line little girl behind mommy boy,disaster
+1812,line little girl behind mommy boy,NO disaster
 1813,prophet upon said even giving half date,NO disaster
 1814,need watch move hijack state,disaster
 1815,prophet world twitter,NO disaster
@@ -1789,13 +1789,13 @@
 1817,tension patience plan hijack,disaster
 1818,tension patience plan hijack plan,disaster
 1819,biggest security update history coming patch android hijack bug,NO disaster
-1820,tension patience plan hijack sun,disaster
+1820,tension patience plan hijack sun,NO disaster
 1821,jeep wirelessly hacked hijack steering brake transmission face lawsuit consider,NO disaster
 1822,rest segment trying hijack someone bike,NO disaster
-1823,hijack transfer move target van,disaster
-1824,hijack,disaster
-1825,hijack transfer move target van,disaster
-1826,hijack transfer move target van,disaster
+1823,hijack transfer move target van,NO disaster
+1824,hijack,NO disaster
+1825,hijack transfer move target van,NO disaster
+1826,hijack transfer move target van,NO disaster
 1827,graham,NO disaster
 1828,plan patience hijack,disaster
 1829,criminal hijack lorry bus,disaster
@@ -1815,7 +1815,7 @@
 1843,provided year year great,NO disaster
 1844,remove browser,NO disaster
 1845,footage talking demanding publication secret,NO disaster
-1846,earnest killing carl one chapter strange life,disaster
+1846,earnest killing carl one chapter strange life,NO disaster
 1847,hot computer send data sound wave hat best,NO disaster
 1848,murderous story first,disaster
 1849,say picked right car try,NO disaster
@@ -1823,12 +1823,12 @@
 1851,hot computer send data sound wave hat best,NO disaster
 1852,hot computer send data sound wave hat best,NO disaster
 1853,hot computer send data sound wave hat best,NO disaster
-1854,computer send data sound wave hat,NO disaster
+1854,computer send data sound wave hat,disaster
 1855,murderous story first,disaster
 1856,great song terrible,NO disaster
 1857,everyone bike,NO disaster
-1858,still vulnerable,disaster
-1859,oh going forever seen dozen place today,NO disaster
+1858,still vulnerable,NO disaster
+1859,oh going forever seen dozen place today,disaster
 1860,hot computer send data sound wave hat best,NO disaster
 1861,learn account attack cloud access security,NO disaster
 1862,hot computer send data sound wave hat best,NO disaster
@@ -1838,13 +1838,13 @@
 1866,state kill another,disaster
 1867,ya kiss hold hostage stop give,NO disaster
 1868,terrorist villager took hostage,disaster
-1869,oh god following hostage exchange,NO disaster
+1869,oh god following hostage exchange,disaster
 1870,branch state execute hostage hour,disaster
 1871,concealed carrier rescue hostage capture naked attacker,disaster
 1872,update affiliate kill hostage,disaster
 1873,affiliate kill hostage,disaster
-1874,supposed arrive holding hostage want footwear,disaster
-1875,state group kill hostage let go press herald,disaster
+1874,supposed arrive holding hostage want footwear,NO disaster
+1875,state group kill hostage let go press herald,NO disaster
 1876,hack late last week discovered antivirus vendor,NO disaster
 1877,recent,NO disaster
 1878,holding family member hostage post,disaster
@@ -1856,21 +1856,21 @@
 1884,hot specially land stadium rescue hostage best,disaster
 1885,put manorial shaped near thine hostage,disaster
 1886,hot specially land stadium rescue hostage best,disaster
-1887,nuke site get,disaster
+1887,nuke site get,NO disaster
 1888,hostage misled terrorist got caught alive,disaster
 1889,one year massacre blast lack action remain,disaster
 1890,time join global war cant sacrifice national interest save,NO disaster
 1891,militant hostage attack,disaster
 1892,massacre blast lack action hostage billing,disaster
 1893,massacre blast lack action hostage billing,disaster
-1894,nit change fact hostage pointless,disaster
+1894,nit change fact hostage pointless,NO disaster
 1895,massacre blast lack action hostage,disaster
 1896,broken hurricane may without,NO disaster
 1897,like hurricane next flag got like ride wavy park,NO disaster
-1898,resident artist remember aftermath hurricane new new,NO disaster
+1898,resident artist remember aftermath hurricane new new,disaster
 1899,found hurricane brewing,disaster
-1900,preaching holy holy spirit blow atmosphere atmosphere air,NO disaster
-1901,would blow kept send proof,NO disaster
+1900,preaching holy holy spirit blow atmosphere atmosphere air,disaster
+1901,would blow kept send proof,disaster
 1902,hurricane live looping,disaster
 1903,rage hurricane sandy,disaster
 1904,thanks,NO disaster
@@ -1884,15 +1884,15 @@
 1913,man injured shooting,disaster
 1914,harper wood policeman injured fight dead man found township,disaster
 1915,redskin right shoulder training camp watch play,NO disaster
-1916,made fall injured,disaster
-1917,weak sauce got injured sled,disaster
+1916,made fall injured,NO disaster
+1917,weak sauce got injured sled,NO disaster
 1918,terrorist open fire police post injured firing underway see,disaster
-1919,injured year great deal,disaster
+1919,injured year great deal,NO disaster
 1920,terror militant attack police post suspected militant tonight news,disaster
 1921,terror militant attack police post suspected militant tonight,disaster
-1922,valley teen teenage boy peer,disaster
+1922,valley teen teenage boy peer,NO disaster
 1923,fire truck ambulance wellington ridge one unit sure injury,disaster
-1924,bowman say team leadership depth key injury,NO disaster
+1924,bowman say team leadership depth key injury,disaster
 1925,common running injury avoid,NO disaster
 1926,cardinal brown make headline minor injury continue build,NO disaster
 1927,glad see career rebirth injury caught,NO disaster
@@ -1903,7 +1903,7 @@
 1933,injury account elevated level,disaster
 1934,thankful injury minor still relax little one cursed injury bug,NO disaster
 1935,discus,NO disaster
-1936,collins could become dirk would,disaster
+1936,collins could become dirk would,NO disaster
 1937,guess confused site week one even injury,NO disaster
 1938,injury green line train south side,disaster
 1939,wishing injury opposition get rivalry miss petty,NO disaster
@@ -1919,7 +1919,7 @@
 1949,new battle unaffected injury,NO disaster
 1950,ben field colt training word serious injury colt,NO disaster
 1951,week hand cardinal,NO disaster
-1952,live area people learn get along live,disaster
+1952,live area people learn get along live,NO disaster
 1953,splat although originally fool seriously considering making request,NO disaster
 1954,giant want go enjoy pink,NO disaster
 1955,waiting hear claim received saying,NO disaster
@@ -1934,22 +1934,22 @@
 1964,see pic clearly good try though,NO disaster
 1965,school wont let go home til help,NO disaster
 1966,people thing know nothing,NO disaster
-1967,report heavy incessant rain led inundation,disaster
+1967,report heavy incessant rain led inundation,NO disaster
 1968,well safe avoid inundation zone pacific north west,disaster
 1969,government flood relief information inundation,disaster
-1970,inundation subtle influence distress sociologist relative,disaster
+1970,inundation subtle influence distress sociologist relative,NO disaster
 1972,real caught escape,disaster
 1973,county offer purchase property florence,NO disaster
-1974,however piece virtu site fixing bath give gate display landslide,NO disaster
+1974,however piece virtu site fixing bath give gate display landslide,disaster
 1975,get massive turn away labour electoral credit tory much,NO disaster
-1976,likely landslide victim assistance,disaster
+1976,likely landslide victim assistance,NO disaster
 1977,many landslide told loose even get upper caste vote,NO disaster
 1978,artifact found southern landslide near horseshoe casino,disaster
 1979,actually funny remains relatively static character series far suddenly like landslide,NO disaster
 1980,video landslide,NO disaster
-1981,possibly mean majority,disaster
+1981,possibly mean majority,NO disaster
 1982,sum give historic landslide everything king,NO disaster
-1983,go dungeon landslide,disaster
+1983,go dungeon landslide,NO disaster
 1984,need seeing technical writing administer,NO disaster
 1985,dixie chick landslide sail ocean handle season,NO disaster
 1986,seek emergency repair boulevard,NO disaster
@@ -1975,16 +1975,16 @@
 2006,world war book lightning joe autobiography general collins,NO disaster
 2007,get heavy rain barely festival lightning close,disaster
 2008,baby like lightning bottle,NO disaster
-2009,lightning,disaster
+2009,lightning,NO disaster
 2010,southeast regional lightning buckle folk take,NO disaster
 2011,certified lightning cable,NO disaster
-2012,lightning express golf trolley fix ramify pretty much multitudinal area thine,disaster
+2012,lightning express golf trolley fix ramify pretty much multitudinal area thine,NO disaster
 2013,world war book lightning joe autobiography general collins,NO disaster
 2014,democracy,NO disaster
 2015,bang phenomenal,NO disaster
 2016,two film university student selected student academy award lightning,NO disaster
 2017,get heavy rain barely festival lightning close,disaster
-2018,lightning,disaster
+2018,lightning,NO disaster
 2019,red thunder blonde lightning back,NO disaster
 2020,lightning spring boom scoreless seventh inning,NO disaster
 2021,soon loud bang,NO disaster
@@ -2006,7 +2006,7 @@
 2037,amaas carry way get stop mass murder,disaster
 2038,candlelight vigil house tonight victim mass ant murder bathroom,disaster
 2039,start making displeased noise struggle get twisted mass blanket,NO disaster
-2040,socialism mean mass,NO disaster
+2040,socialism mean mass,disaster
 2041,watching murder first get perspective family mass shooter crazy pain,disaster
 2042,duck socialism mean mass,NO disaster
 2043,yr since atomic terrible mass,disaster
@@ -2019,29 +2019,29 @@
 2050,today mark year since mass murder civilian end,disaster
 2051,would go mass murder mistake made,disaster
 2052,amazing smug guy use mass murder global power,disaster
-2053,like mass think get gun illegally,NO disaster
+2053,like mass think get gun illegally,disaster
 2054,movement impeach sa accused helping mass murderer escape,disaster
-2055,also mass,disaster
+2055,also mass,NO disaster
 2056,president hosting terrorist,disaster
 2057,shooting movie theater new mass murderer,disaster
 2058,stereotyping mass murderer like,disaster
-2059,wait really tell wife mass murderer cheat done film,NO disaster
+2059,wait really tell wife mass murderer cheat done film,disaster
 2060,worth via,NO disaster
-2061,tomb raider uncharted game croft drake finally run ruthless mass murderer recent,NO disaster
+2061,tomb raider uncharted game croft drake finally run ruthless mass murderer recent,disaster
 2062,disgusted libertarianism mass murderer innocent,disaster
-2063,mass murderer sex without touching taking clothes fanatical hygiene,disaster
-2064,sound pretty sensible mass,NO disaster
+2063,mass murderer sex without touching taking clothes fanatical hygiene,NO disaster
+2064,sound pretty sensible mass,disaster
 2065,mass murderer told judge use right ask jury mercy,disaster
 2066,also nicely fandom mass murderer know,disaster
 2067,people create rumor matter bottom line giving fifteen minute fame mass murderer,disaster
 2068,king king,NO disaster
 2069,trillion dollar lawsuit sandy hook,NO disaster
-2070,embrace beauty massacre lie ahead,disaster
+2070,embrace beauty massacre lie ahead,NO disaster
 2071,year temple massacre prevention key,disaster
 2072,birthday,NO disaster
-2073,want popcorn tea watching massacre,NO disaster
+2073,want popcorn tea watching massacre,disaster
 2074,colorado theater shooting victim fear copycat,disaster
-2075,person would possibly make horror film vista massacre order make money,NO disaster
+2075,person would possibly make horror film vista massacre order make money,disaster
 2076,one year massacre broken people,disaster
 2077,un massacre thousand need lesson,disaster
 2078,police link beach massacre museum,disaster
@@ -2067,11 +2067,11 @@
 2099,tonight going mayhem everybody free st,NO disaster
 2100,editor chief release issue fashion model mayhem,NO disaster
 2101,new talk jarring,NO disaster
-2103,collective,disaster
+2103,collective,NO disaster
 2104,coming,NO disaster
 2105,momentum bite investor apple stock crash investment,NO disaster
 2106,set combined two thing wrestling,NO disaster
-2107,experience economic similar early mortgage show due student first,NO disaster
+2107,experience economic similar early mortgage show due student first,disaster
 2108,love,NO disaster
 2109,craving triple chocolate bee,disaster
 2110,would honor meeting like,NO disaster
@@ -2080,7 +2080,7 @@
 2113,bit also,NO disaster
 2114,still waiting one trailer make rain delay come back give run,disaster
 2116,like business,NO disaster
-2117,metal price higher silver,NO disaster
+2117,metal price higher silver,disaster
 2118,maybe party get drunk flirt clay,NO disaster
 2119,inspector far access scientist wall street journal,disaster
 2120,admiral say public school nationwide military via,NO disaster
@@ -2093,7 +2093,7 @@
 2127,military,NO disaster
 2128,joke military men,NO disaster
 2129,husband military end seat shuffling,NO disaster
-2130,military action via,disaster
+2130,military action via,NO disaster
 2131,ford military nice mutt matching trailer full read,NO disaster
 2132,another war without deal military,NO disaster
 2133,green bayonet military combat sheath knife,NO disaster
@@ -2102,7 +2102,7 @@
 2136,china aid,disaster
 2137,one chocolate,NO disaster
 2138,eat whole wet burrito,NO disaster
-2139,like like rubber look oh dear,NO disaster
+2139,like like rubber look oh dear,disaster
 2140,oh never felt sorry someone,NO disaster
 2142,loving watched,NO disaster
 2143,new,NO disaster
@@ -2110,26 +2110,26 @@
 2145,look like unreal,NO disaster
 2146,lady good shout,NO disaster
 2147,cover eye,NO disaster
-2148,screaming natural disaster month maybe hospital,NO disaster
+2148,screaming natural disaster month maybe hospital,disaster
 2149,home inventory help homeowner case natural disaster news via,disaster
-2150,magnitude tremor rattle aftershock count recent natural disaster,NO disaster
+2150,magnitude tremor rattle aftershock count recent natural disaster,disaster
 2151,natural disaster research urgent via,disaster
-2152,natural disaster half as rapper,disaster
+2152,natural disaster half as rapper,NO disaster
 2153,red tape tangle reconstruction disaster risk reduction natural disaster,disaster
 2154,expert financial collapse natural disaster,disaster
 2155,trust natural disaster yes regular giving pro via,NO disaster
 2156,return book rand wormwood natural disaster survivor,disaster
 2157,indeed natural,disaster
-2158,added video natural disaster survival bacon,NO disaster
+2158,added video natural disaster survival bacon,disaster
 2159,another movie like impossible natural disaster focus white,disaster
 2160,hopefully vacation include earthquake natural,disaster
 2161,new emergency food supply natural disaster earthquake flood tornado,disaster
 2162,help community event natural disaster,disaster
-2163,train accident natural show failure ministry check fixed interval,disaster
+2163,train accident natural show failure ministry check fixed interval,NO disaster
 2164,probably watched still living nuclear disaster nova,disaster
 2165,chronicle yale library archive call end nuclear weapon,disaster
 2166,authority japan take responsibility nuclear confidence safety nuclear plant,disaster
-2167,digital archive public document nuclear catastrophe,disaster
+2167,digital archive public document nuclear catastrophe,NO disaster
 2168,consuming energy avoid nuclear disaster,disaster
 2169,third west coast child hit problem following nuclear,disaster
 2170,nuclear disaster ongoing side,disaster
@@ -2146,16 +2146,16 @@
 2181,sealed nuclear regulatory commission reactor record new wave art rock,NO disaster
 2182,pact lie heart two project express,disaster
 2183,navy sideline sub,NO disaster
-2184,meanwhile nuclear project move,disaster
-2185,nuclear reactor go ahead,disaster
+2184,meanwhile nuclear project move,NO disaster
+2185,nuclear reactor go ahead,NO disaster
 2186,global nuclear reactor construction market grew nuclear reactor,disaster
-2187,thorium molten salt reactor system built thorium climate nuclear,NO disaster
+2187,thorium molten salt reactor system built thorium climate nuclear,disaster
 2188,steam pipe problem sideline breaking story,NO disaster
 2189,navy sideline three submarine pending steam plant inspection,NO disaster
 2190,steal nuclear fission reactor,disaster
-2191,nuclear plant move ahead,disaster
+2191,nuclear plant move ahead,NO disaster
 2192,like memorial nuclear reactor annihilation,NO disaster
-2193,nuclear reactor waste buried billion tax payer dollar,disaster
+2193,nuclear reactor waste buried billion tax payer dollar,NO disaster
 2194,would obliterate anyone get way sleep,NO disaster
 2195,watch obliterate parenthood minority,NO disaster
 2196,insanity call climate change dangerous wanting obliterate,NO disaster
@@ -2187,17 +2187,17 @@
 2223,feature love,NO disaster
 2224,long good making amends though still,NO disaster
 2225,never many conventional bomb yank japan prior city,disaster
-2226,drunk meal cook totally,NO disaster
+2226,drunk meal cook totally,disaster
 2227,mention,NO disaster
 2228,way endurance get second would probably hell,NO disaster
 2229,year hundred thousand life year pain,NO disaster
 2230,day eye bomber crew survivor via,disaster
 2231,drake absolutely meek mill,NO disaster
 2232,god order obliteration ancient scholar say dire warning lie hidden ancient text,NO disaster
-2233,god order obliteration ancient scholar say dire warning news,NO disaster
+2233,god order obliteration ancient scholar say dire warning news,disaster
 2234,must fear fear total,NO disaster
 2235,need conquest server squad obliteration server ping,NO disaster
-2236,schematization maintain fact dependable virtue,disaster
+2236,schematization maintain fact dependable virtue,NO disaster
 2237,obliteration limit,NO disaster
 2238,renovation mean entrepreneur management leadership business,NO disaster
 2239,must total face dune,NO disaster
@@ -2239,7 +2239,7 @@
 2275,pandemonium aba woman baby without face,NO disaster
 2276,scene bridge could win ash today pandemonium,disaster
 2277,original lust angel self miss cause mayhem pandemonium,NO disaster
-2278,time next week absolute pandemonium several home around,NO disaster
+2278,time next week absolute pandemonium several home around,disaster
 2279,pandemonium aba woman baby without,NO disaster
 2280,welcome pandemonium aba woman baby,NO disaster
 2281,game pandemonium pit,NO disaster
@@ -2268,9 +2268,9 @@
 2305,people finally cable traditional trouble,NO disaster
 2306,people finally cable,NO disaster
 2307,business people finally cable,NO disaster
-2308,deserve medal dealing basement flood without,disaster
+2308,deserve medal dealing basement flood without,NO disaster
 2309,like crazy need,NO disaster
-2310,really cause spending time could,NO disaster
+2310,really cause spending time could,disaster
 2311,show last night still fact saw sweaty two eye,NO disaster
 2312,worst feel fight chug two estus kill drink,NO disaster
 2313,reader everyone else summer time,NO disaster
@@ -2282,7 +2282,7 @@
 2320,block st police,NO disaster
 2321,shooting kill one officer police investigating shooting,disaster
 2322,run census find local police track biometrics,disaster
-2323,acting public information officer august,disaster
+2323,acting public information officer august,NO disaster
 2324,theater shooting suspect news,disaster
 2325,love police,NO disaster
 2326,honestly understand blaming police buy,NO disaster
@@ -2306,13 +2306,13 @@
 2344,quarantine offensive unveiled,NO disaster
 2345,toxic community,NO disaster
 2346,update content policy promise quarantine community,NO disaster
-2347,man tested negative virus family member,disaster
+2347,man tested negative virus family member,NO disaster
 2348,new content policy go effect many horrible,NO disaster
 2349,new content policy go effect many horrible,NO disaster
 2350,hot new content policy go effect many horrible best,NO disaster
 2351,top new content policy go effect many horrible,NO disaster
 2352,home possible,disaster
-2353,certain volatile one,disaster
+2353,certain volatile one,NO disaster
 2354,home possible case,disaster
 2355,new content policy go effect many horrible,NO disaster
 2356,applied ban sub,NO disaster
@@ -2322,8 +2322,8 @@
 2360,knew world leader lifesaving emergency looking far beyond,NO disaster
 2361,japan raising maximum radiation dose nuclear plant worker emergency,disaster
 2362,jerry brown state emergency wildfire drought street gang radiation dead fish mania air pollution unemployment,disaster
-2363,radiation council government admitted reform bill raise dose limit,disaster
-2364,source,disaster
+2363,radiation council government admitted reform bill raise dose limit,NO disaster
+2364,source,NO disaster
 2365,anyone remember came tour giant rainstorm last night one stop rain,NO disaster
 2366,another fun daughter get flat tire call know change worst rainstorm know,NO disaster
 2367,approaching rainstorm,disaster
@@ -2332,7 +2332,7 @@
 2371,landslide alp kill three three people severe rainstorm,disaster
 2372,rainstorm way brook provincial park,NO disaster
 2373,landslide alp kill three people severe rainstorm,disaster
-2374,driving home fairly large rainstorm make wonder manage drive dry,disaster
+2374,driving home fairly large rainstorm make wonder manage drive dry,NO disaster
 2375,shut eye music broke like,NO disaster
 2376,landslide alp kill three people severe rainstorm,disaster
 2377,already thanks need go maintenance,NO disaster
@@ -2353,7 +2353,7 @@
 2393,home northern wildfire news,disaster
 2394,home northern wildfire news,disaster
 2395,home northern wildfire news,disaster
-2396,entire aisle making people look like director whole food clothing section,NO disaster
+2396,entire aisle making people look like director whole food clothing section,disaster
 2397,refugee read,disaster
 2398,top spend wedding day feeding see,NO disaster
 2399,powerful thought language use talk group people,NO disaster
@@ -2371,7 +2371,7 @@
 2411,rescue kitten vent shaft fire,disaster
 2412,time launch black mission rescue alpha,disaster
 2413,last chance animal rescue new,NO disaster
-2414,notice rescue kitty service,disaster
+2414,notice rescue kitty service,NO disaster
 2415,official rescue migrant body found fox news,disaster
 2416,grandma came,NO disaster
 2417,open rescue pocket knife new blue,NO disaster
@@ -2381,17 +2381,17 @@
 2421,want either bot,NO disaster
 2422,sister alone end beautiful sad,NO disaster
 2423,worker top central street water tower,disaster
-2424,baby girl half mile,disaster
+2424,baby girl half mile,NO disaster
 2426,ground zero cant come soon enough,NO disaster
 2427,bought new property year intention providing sanctuary farm,NO disaster
 2428,three suspect police net old baby aba baby,disaster
 2429,trekker amid flash flood news,disaster
 2430,migrant boat tragedy survivor arrive migrant,disaster
-2431,lady police tribune,NO disaster
+2431,lady police tribune,disaster
 2432,two people passenger boat two dozen passenger,disaster
 2433,prosecutor drop charge kim two puppy via change,NO disaster
 2434,amid flood,disaster
-2435,piglet running national speed limit road,disaster
+2435,piglet running national speed limit road,NO disaster
 2436,rescuer recover body man lake near,disaster
 2437,hundred migrant boat rescuer saved people though,disaster
 2438,body rescuer searching hundred migrant,disaster
@@ -2421,23 +2421,23 @@
 2462,role play park,NO disaster
 2463,feminist world riot grill pop,NO disaster
 2464,dig controversial trailer real hero riot video gay,NO disaster
-2465,riot police intervene supporter fan clash buildup second,NO disaster
-2466,riot police intervene supporter fan clash buildup,NO disaster
+2465,riot police intervene supporter fan clash buildup second,disaster
+2466,riot police intervene supporter fan clash buildup,disaster
 2467,video ghee still see rioting walk,NO disaster
 2468,watch run jewel use fact defend rioting socially minded duo take,disaster
 2469,swear god make faker play rioting,NO disaster
 2470,watch run jewel use fact defend rioting socially minded duo take,disaster
 2471,better alternative rioting kill kill,disaster
-2472,stopped trying figure shooting incite,NO disaster
+2472,stopped trying figure shooting incite,disaster
 2473,use start guy even listen,NO disaster
-2474,puny black population get control majority,disaster
+2474,puny black population get control majority,NO disaster
 2475,protest rioting ignorant people,disaster
 2476,first anything anywhere simply report,disaster
 2477,rioting street outnumber,disaster
-2478,thug boy,disaster
+2478,thug boy,NO disaster
 2479,appear new video riot,NO disaster
-2480,half currently rioting think aboriginal cricketer stealing,disaster
-2481,rioting,disaster
+2480,half currently rioting think aboriginal cricketer stealing,NO disaster
+2481,rioting,NO disaster
 2482,outrage dog found buried alive rubble,disaster
 2483,home build leader rubble henry new loan,NO disaster
 2484,stock market gem,NO disaster
@@ -2449,11 +2449,11 @@
 2490,firm still growing revenue,disaster
 2491,stock market gem,NO disaster
 2492,long run every program becomes rococo alan,NO disaster
-2493,never evidence smothered thick cloud,NO disaster
+2493,never evidence smothered thick cloud,disaster
 2494,grandpa fought way across western way home,disaster
-2495,rubble,disaster
-2496,nickelodeon paw rubble action pack pup badge,disaster
-2497,poetry friendship life giant life throwing rubble giant mind,NO disaster
+2495,rubble,NO disaster
+2496,nickelodeon paw rubble action pack pup badge,NO disaster
+2497,poetry friendship life giant life throwing rubble giant mind,disaster
 2498,stock market crash summer sparked interest bargain,NO disaster
 2499,stock market gem,NO disaster
 2500,world scream terrorism civilian rubble,disaster
@@ -2491,7 +2491,7 @@
 2532,game throne literally cried threw computer,NO disaster
 2533,saw jordan come door behind,NO disaster
 2534,yeah,NO disaster
-2535,oh gosh aunt house post counter thought said,NO disaster
+2535,oh gosh aunt house post counter thought said,disaster
 2536,oh god saw yes,NO disaster
 2537,swear god didnt even read properly though said need sleep,NO disaster
 2538,security guy said family everyone love fandom,NO disaster
@@ -2532,16 +2532,16 @@
 2580,time small step long need seismic shift thinking address migration holistic human humane,NO disaster
 2581,wrong pray seismic activity along san,NO disaster
 2582,group seek review seismic,disaster
-2583,fast accurate simulation seismic survey acoustic medium seismic,NO disaster
-2584,seismic,disaster
-2585,brain feel like vibrating inside going look like seismic earthquake,NO disaster
+2583,fast accurate simulation seismic survey acoustic medium seismic,disaster
+2584,seismic,NO disaster
+2585,brain feel like vibrating inside going look like seismic earthquake,disaster
 2586,early brain aging seismic analogy,disaster
 2587,exploration take seismic shift,disaster
 2588,still seismic reactor big issue,NO disaster
 2589,island region depth maximum seismic intensity,disaster
 2590,brassiere seismic survey,disaster
 2591,art seismic shift back observer,NO disaster
-2592,seismic exploration offshore oil,disaster
+2592,seismic exploration offshore oil,NO disaster
 2593,toss seismic stellar killer filler keep,NO disaster
 2594,exploration take seismic shift,disaster
 2595,total make significant discovery north full potential seismic,disaster
@@ -2551,12 +2551,12 @@
 2599,sinkhole street today ave,disaster
 2600,sinkhole wont believe sinkhole wont,NO disaster
 2601,large sinkhole swallow entire pond county,disaster
-2602,sinkhole,disaster
+2602,sinkhole,NO disaster
 2603,giant sinkhole swallow intersection via,disaster
 2604,sinkhole crater swallow street,disaster
-2605,sinkhole ate,disaster
+2605,sinkhole ate,NO disaster
 2606,watch giant sinkhole form new york city street,disaster
-2607,sinking little everyday pond,disaster
+2607,sinking little everyday pond,NO disaster
 2608,lost sinking like past foot upon ground,NO disaster
 2609,call forward sinking cesspool might right,NO disaster
 2610,feel like sinking take,NO disaster
@@ -2569,7 +2569,7 @@
 2618,see thing,NO disaster
 2619,best wish,NO disaster
 2620,model siren amplifier police emergency vehicle full read,NO disaster
-2621,see point skewed dumb statement,disaster
+2621,see point skewed dumb statement,NO disaster
 2622,model siren amplifier police emergency vehicle full read,NO disaster
 2623,love lady oh finally got happy,NO disaster
 2624,police siren sound effect via play tube,NO disaster
@@ -2577,7 +2577,7 @@
 2626,check found live,NO disaster
 2627,new siren sailor workout album,NO disaster
 2628,hope dust air raid quote,disaster
-2629,far miss may sleeping siren august burn red may fire good,NO disaster
+2629,far miss may sleeping siren august burn red may fire good,disaster
 2630,want new season league siren,NO disaster
 2631,dad high family,disaster
 2632,somebody tell meet pierce veil sleeping siren please beg,NO disaster
@@ -2613,10 +2613,10 @@
 2662,want someone smoke blunt talk life,NO disaster
 2663,snowstorm find answer snowstorm,NO disaster
 2664,snowstorm baby,NO disaster
-2665,te almost born year birth,disaster
+2665,te almost born year birth,NO disaster
 2666,rose lofty position transported accident hot air balloon,disaster
 2667,open toed shoe arent snowstorm,NO disaster
-2668,creepy seeing closed snowstorm balcony eerie,NO disaster
+2668,creepy seeing closed snowstorm balcony eerie,disaster
 2669,dream driving went restaurant left journal,NO disaster
 2670,new photo oak snowstorm taken winter photography,NO disaster
 2671,organic cold ice cream cone iceland snowstorm,NO disaster
@@ -2630,7 +2630,7 @@
 2679,one snowstorm glacier via,NO disaster
 2680,sun shining house imagine trying build summer home north east,disaster
 2681,bought bargain dress love cut colour,NO disaster
-2682,week dream last drove car hit another car parallel saw first,disaster
+2682,week dream last drove car hit another car parallel saw first,NO disaster
 2683,feel like cold homeless orphan gazing cozy mansion affluent eating lobster dinner,NO disaster
 2684,like rock music care second fan,NO disaster
 2685,warcraft mode likely hero storm,NO disaster
@@ -2642,44 +2642,44 @@
 2691,warcraft mode likely coming hero storm,NO disaster
 2692,another next day kinky,NO disaster
 2693,aurora ak low storm,disaster
-2694,hero storm league legend,NO disaster
+2694,hero storm league legend,disaster
 2695,storm rolling head fun,NO disaster
 2696,man united football like back passion courage endurance ride,NO disaster
 2697,peer review cause storm via,disaster
-2698,get violently ill get everyone else cannot catch,disaster
+2698,get violently ill get everyone else cannot catch,NO disaster
 2699,kitchen cabinet,NO disaster
 2700,said dropping soon video,NO disaster
 2701,stretcher min speaker deck,NO disaster
 2702,life hand leave stretcher,NO disaster
-2703,star coach dan taken court stretcher collision,NO disaster
+2703,star coach dan taken court stretcher collision,disaster
 2704,try put,NO disaster
 2705,stretcher witter towel thanks,NO disaster
 2706,oh dan like really hurt getting stretcher,NO disaster
 2707,mind salivation stretcher,NO disaster
-2708,leave,disaster
+2708,leave,NO disaster
 2709,see wreck first thought leaving,NO disaster
 2710,ambulance stretcher simple stretcher emergency medical care,NO disaster
 2711,stretcher min,NO disaster
 2712,want stretcher,NO disaster
 2713,star look like lower back put play wash,NO disaster
-2714,star coach dan taken court stretcher collision,NO disaster
+2714,star coach dan taken court stretcher collision,disaster
 2715,throat stretcher,NO disaster
 2716,investigator say fatal virgin galactic spaceship crash last year structural failure,disaster
 2717,investigator say fatal virgin galactic spaceship crash last year structural failure unlocked,disaster
 2718,investigator say fatal virgin galactic spaceship crash last year structural failure,disaster
 2719,investigator rule catastrophic structural failure virgin galactic crash,disaster
 2720,virgin galactic crash structural failure triggered brake unlocked early,disaster
-2721,building structural integrity problem inspection damage defect testing repair,disaster
+2721,building structural integrity problem inspection damage defect testing repair,NO disaster
 2722,also complete failure imagination come analysis regardless politics,NO disaster
 2723,virgin galactic early unlocking brake triggered structural failure,disaster
 2724,investigator say fatal virgin galactic spaceship crash last year structural failure,disaster
-2725,coal imprudent like failure recognize structural lookout,disaster
+2725,coal imprudent like failure recognize structural lookout,NO disaster
 2726,investigator rule catastrophic structural failure virgin galactic crash,disaster
-2727,afford structural,disaster
+2727,afford structural,NO disaster
 2728,report last crash virgin galactic spaceship structural failure,disaster
 2729,investigator say fatal virgin galactic spaceship crash last year structural failure,disaster
 2730,different material closer building stayed intact negate structural failure building,disaster
-2731,international news suicide bomb kill least seven market via full story,disaster
+2731,international news suicide bomb kill least seven market via full story,NO disaster
 2732,pic old suicide bomber bomb turkey army trench,disaster
 2733,pic old suicide bomber bomb turkey army trench,disaster
 2734,pic old suicide bomber bomb turkey army trench,disaster
@@ -2688,7 +2688,7 @@
 2737,pic old suicide bomber bomb turkey army trench,disaster
 2738,wo pic old suicide bomber bomb turkey army trench,disaster
 2739,pic old suicide bomber bomb turkey army trench member,disaster
-2740,international news suicide bomb kill least seven market via full story,disaster
+2740,international news suicide bomb kill least seven market via full story,NO disaster
 2741,old suicide bomber bomb,disaster
 2742,pic old suicide bomber bomb turkey army trench,disaster
 2743,pic old suicide bomber bomb turkey army trench,disaster
@@ -2703,7 +2703,7 @@
 2752,suicide bomber mosque reportedly,disaster
 2753,suicide bomber kill mosque,disaster
 2754,suicide bomber kill mosque used police claim responsible barbarism,disaster
-2755,come one obvious show suicide never,disaster
+2755,come one obvious show suicide never,NO disaster
 2756,bomber kill least mosque member emergency,disaster
 2757,suicide bomber kill security site mosque,disaster
 2758,state claim suicide mosque,disaster
@@ -2713,7 +2713,7 @@
 2762,group claim mosque suicide group claim sent suicide bomber,disaster
 2763,dead suicide bomber attack mosque,disaster
 2764,claim suicide state group suicide bomber news,disaster
-2765,career goal try cause suicide raise like blowing,NO disaster
+2765,career goal try cause suicide raise like blowing,disaster
 2766,best evidence word guy suicide mean get,NO disaster
 2767,said carried suicide troop eastern turkey reprisal civilian,disaster
 2768,bloody suicide took life,disaster
@@ -2731,8 +2731,8 @@
 2780,credit three suicide attack regime outskirt,disaster
 2781,massive suicide truck caught tape via,disaster
 2782,according tabloid sense titanic sunk,NO disaster
-2783,shuffle butterfly pit belly canine sunk,disaster
-2784,today today cargo ship atlantic lost life,NO disaster
+2783,shuffle butterfly pit belly canine sunk,NO disaster
+2784,today today cargo ship atlantic lost life,disaster
 2785,show sunk really keep trying though,NO disaster
 2786,idea album entirely sunk loving,NO disaster
 2787,sunk seeing one direction,NO disaster
@@ -2761,13 +2761,13 @@
 2811,friend attack cancer,NO disaster
 2812,person bunch rainstorm kept believe,NO disaster
 2813,mother never met,NO disaster
-2814,good news barton helicopter crash maybe start training get match pompey,disaster
+2814,good news barton helicopter crash maybe start training get match pompey,NO disaster
 2815,even know,NO disaster
 2816,let see long fall back dreamland,NO disaster
 2817,snack snack snack flight,disaster
-2818,bucket list checked hour sleep day presentation second day,NO disaster
+2818,bucket list checked hour sleep day presentation second day,disaster
 2819,first thanks,NO disaster
-2820,tree,disaster
+2820,tree,NO disaster
 2821,everything turn went alone,NO disaster
 2822,know dental appointment,NO disaster
 2823,oh thank god cain,NO disaster
@@ -2775,7 +2775,7 @@
 2825,wow tough barely,NO disaster
 2826,tube victory smile,NO disaster
 2827,trapped bee shoe one ran mi pace,NO disaster
-2828,important piece health effect via,NO disaster
+2828,important piece health effect via,disaster
 2829,memory drawn survivor via,disaster
 2830,run acid attack survivor,disaster
 2831,memory drawn survivor,disaster
@@ -2784,9 +2784,9 @@
 2834,see comment lead search survivor migrant,disaster
 2835,survivor shanghai ghetto reunite year,disaster
 2836,anniversary atomic bomb survivor speak nuclear power common dream,disaster
-2837,need talk bowel cancer affect young woman,NO disaster
+2837,need talk bowel cancer affect young woman,disaster
 2838,memory drawn survivor via news,disaster
-2839,new survivor,disaster
+2839,new survivor,NO disaster
 2840,man living hell,NO disaster
 2841,text worth hear story survivor pledge text,NO disaster
 2842,new doc survivor check,NO disaster
@@ -2796,10 +2796,10 @@
 2846,donation make difference life survivor please donate,disaster
 2847,miller laura mark take group pic,disaster
 2848,caught,disaster
-2849,state,disaster
+2849,state,NO disaster
 2850,judge considering fate child young two amid fear,disaster
 2851,brief history false flag terrorism wake world via,disaster
-2852,homeland appraisal act,disaster
+2852,homeland appraisal act,NO disaster
 2854,fear peace call end,NO disaster
 2855,caught,disaster
 2856,new counter terrorism program urge rat critic say,disaster
@@ -2807,12 +2807,12 @@
 2858,caught,disaster
 2859,sponsor go give become supporter terrorism,disaster
 2861,new counter terrorism program urge rat critic say,disaster
-2862,maybe giving weapon regime terrorism,NO disaster
+2862,maybe giving weapon regime terrorism,disaster
 2864,terrorist attack district injured,disaster
 2865,terror take probe terrorist link,disaster
 2866,three soldier wounded west bank terrorist attack world,disaster
 2867,lupe know rap social issue terrorist black everything little weapon good example,NO disaster
-2868,unborn baby terrorist mother womb,NO disaster
+2868,unborn baby terrorist mother womb,disaster
 2869,terrorist overnight terror village,disaster
 2870,reading terrorist search humanity extremist idea ever since bomb humanity single entity,disaster
 2871,vice terrorist group al go report war crime western,disaster
@@ -2821,7 +2821,7 @@
 2874,ask terrorist,disaster
 2875,article son border slain medium,NO disaster
 2876,something seriously one attack large contingency,disaster
-2877,stop money tax layer country feed bloody shot give strong country,NO disaster
+2877,stop money tax layer country feed bloody shot give strong country,disaster
 2878,always wonder medium capable meet get detail cop dont even get know strange,NO disaster
 2879,news must terrorist caught alive must feeling,disaster
 2880,true also racial attack back back terrorist attack,disaster
@@ -2836,12 +2836,12 @@
 2890,thunder,NO disaster
 2892,goddess said married either chief heavenly god,NO disaster
 2893,wake another hour get interrupted hate thunder,NO disaster
-2894,diet find best way reduce thunder health,NO disaster
+2894,diet find best way reduce thunder health,disaster
 2895,bolt thunder,NO disaster
 2896,need thunder,NO disaster
 2897,raise word rain flower,NO disaster
-2898,really get much better summer thunder storm wrapped,NO disaster
-2899,thunder people rolling,disaster
+2898,really get much better summer thunder storm wrapped,disaster
+2899,thunder people rolling,NO disaster
 2900,severe thunderstorm watch ended red deer,disaster
 2901,severe thunderstorm warning local county wind gust half dollar size,disaster
 2902,new severe thunderstorm warning mo,disaster
@@ -2850,11 +2850,11 @@
 2905,dog abandoned neighbor step,NO disaster
 2906,severe thunderstorm warning county,disaster
 2907,issue severe thunderstorm warning part ar expect trauma,disaster
-2908,woke thunderstorm ever,disaster
+2908,woke thunderstorm ever,NO disaster
 2909,post severe thunderstorm warning part ar seek strong shelter,disaster
 2910,issue strong thunderstorm impact portion northeastern county greater,disaster
 2911,issue severe thunderstorm warning till,disaster
-2912,special weather statement august thunderstorm impact portion,disaster
+2912,special weather statement august thunderstorm impact portion,NO disaster
 2913,loud as thunderstorm reason,NO disaster
 2914,post severe thunderstorm warning part ar seek strong shelter,disaster
 2915,severe thunderstorm warning central still expect wind penny sized hail,disaster
@@ -2869,7 +2869,7 @@
 2924,tornado warning southern,disaster
 2925,tell yer sin judge take clothes sing,NO disaster
 2926,live tornado,disaster
-2927,tornado flew around room,disaster
+2927,tornado flew around room,NO disaster
 2928,going live car year probably life goal,NO disaster
 2929,join,NO disaster
 2930,loving like throwing lasso around tornado tried hold,NO disaster
@@ -2878,8 +2878,8 @@
 2933,would tragedy also extremely realistic cool yeah sure,NO disaster
 2934,remember friend jeff saying gat back er shift,NO disaster
 2935,death million death august atomic bomb,disaster
-2936,ban safe back alley tragedy come,NO disaster
-2937,tragedy yoga compassion,disaster
+2936,ban safe back alley tragedy come,disaster
+2937,tragedy yoga compassion,NO disaster
 2938,beef went far used tragedy people insult owe,NO disaster
 2939,love tragedy,NO disaster
 2940,mine tragedy live recount saw coach train plunging,disaster
@@ -2890,13 +2890,13 @@
 2945,tragedy live recount saw coach train plunging water,disaster
 2946,war never woman trapped know nothing evil,NO disaster
 2947,think reality show tell quell panic rising trapped,NO disaster
-2948,work week trapped nerve life struggle right,NO disaster
+2948,work week trapped nerve life struggle right,disaster
 2949,confused belief dog trapped,NO disaster
 2950,movie trapped miner,NO disaster
 2951,one south shore know make good coffee trapped living hell,NO disaster
 2952,trapped evil,NO disaster
-2953,eric trapped year old buddy,disaster
-2954,movie trapped miner movie trapped,NO disaster
+2953,eric trapped year old buddy,NO disaster
+2954,movie trapped miner movie trapped,disaster
 2955,took trap house trapped,NO disaster
 2956,ever saw dog trapped hot car better believe window open taking dog,NO disaster
 2957,movie trapped miner chile movie,NO disaster
@@ -2905,12 +2905,12 @@
 2960,hospital broke leg trapped cave press photo,NO disaster
 2961,trap trapping trapped,NO disaster
 2962,meeting new interesting people learning new place freedom trapped circumstance,NO disaster
-2963,ghost literally surrounded people trapped small minded individual,NO disaster
+2963,ghost literally surrounded people trapped small minded individual,disaster
 2964,student suffering trauma like divorce violence poverty often act school trying new,NO disaster
 2965,marijuana critical research treating,disaster
 2966,president judge open first summit trauma court,NO disaster
-2967,learned fat dating trauma piggy,NO disaster
-2968,journalist recall tragic effect unaddressed childhood therapy,NO disaster
+2967,learned fat dating trauma piggy,disaster
+2968,journalist recall tragic effect unaddressed childhood therapy,disaster
 2969,shocking heart repair terrible trauma,NO disaster
 2970,effective immediately medical center longer adult pediatric trauma,NO disaster
 2971,important woman living science trauma,disaster
@@ -2927,16 +2927,16 @@
 2982,author pattern silent trauma,NO disaster
 2983,spent day fact load good music probably going hear,NO disaster
 2984,imagine would could see dub jersey shore well done,NO disaster
-2986,go men many child,disaster
+2986,go men many child,NO disaster
 2987,watching casino clearly sucking finger,NO disaster
 2988,last night lightning poor ended huddling,NO disaster
 2989,never watched actually,NO disaster
-2990,story company politician measly,disaster
+2990,story company politician measly,NO disaster
 2991,already first full day fringe,NO disaster
 2992,still sight old woman throwing window,NO disaster
 2993,extra month literally recap pool every safety,NO disaster
 2994,like forever think,NO disaster
-2995,willing believe nonsense sorry hear still fake,NO disaster
+2995,willing believe nonsense sorry hear still fake,disaster
 2996,ask,NO disaster
 2997,even spell excuse,NO disaster
 2998,responsible trouble,NO disaster
@@ -2959,8 +2959,8 @@
 3015,tink,NO disaster
 3016,video new tsunami huge wave shark hunting,NO disaster
 3017,tsunami commercial,NO disaster
-3018,food course get caught,disaster
-3019,tsunami,disaster
+3018,food course get caught,NO disaster
+3019,tsunami,NO disaster
 3020,beloved sister new video coming apocalyptic earthquake tsunami,disaster
 3021,great encouragement new video coming apocalyptic earthquake tsunami,disaster
 3022,tsunami say order take minute order way,disaster
@@ -2970,7 +2970,7 @@
 3026,think tsunami hit,NO disaster
 3027,sorry say there tweet tsunami happening,NO disaster
 3028,sphere key saving life would pack,disaster
-3029,drunk,disaster
+3029,drunk,NO disaster
 3030,help support victim earthquake pacific tsunami,disaster
 3031,many son would parson parse parson could parse tongue twister among religious woodchuck,NO disaster
 3032,twister hit village province news,disaster
@@ -2986,7 +2986,7 @@
 3042,disaster sign disaster declaration northern,disaster
 3043,typhoon path approach make landfall southern china,disaster
 3044,sign disaster declaration northern typhoon hit territory,disaster
-3045,typhoon head news fun funny,disaster
+3045,typhoon head news fun funny,NO disaster
 3046,weather remnant super typhoon cause violent,disaster
 3047,viral spectacular satellite view typhoon,disaster
 3048,water electricity typhoon aftermath voice world,disaster
@@ -3000,7 +3000,7 @@
 3056,came time great upheaval life odd coming also thing getting iffy,NO disaster
 3057,bat four reason en route upheaval versus buzz,NO disaster
 3058,ancient tablet hieroglyphic honor lowly king future,NO disaster
-3059,permutable site conspiracy,disaster
+3059,permutable site conspiracy,NO disaster
 3060,fan upheaval done garbage,NO disaster
 3061,life need quality certain sense person trust cause stress emotional,NO disaster
 3062,medieval upheaval secret,NO disaster
@@ -3008,7 +3008,7 @@
 3064,retailer intend survive upheaval retail consumer,NO disaster
 3065,august violent storm strike city flooding sport war news,disaster
 3066,dramatic video show plane landing violent storm,disaster
-3067,word come mind food nothing weather storm,NO disaster
+3067,word come mind food nothing weather storm,disaster
 3068,struck cyclonic big happen heavy rain violent storm god help,disaster
 3069,severe weather head toward brief violent storm swept area,disaster
 3070,terrifying footage capture violent landing inside passenger jet storm,disaster
@@ -3018,11 +3018,11 @@
 3074,violent force torture storm player,disaster
 3075,circus tent collapse violent storm killing new,disaster
 3076,storm violent wind pounding rain,disaster
-3077,stay inside next little bit violent storm right,disaster
+3077,stay inside next little bit violent storm right,NO disaster
 3078,violent storm cause deadly accident new circus,disaster
 3079,violent force psalm player,NO disaster
-3080,would nice would fix radar another violent storm uninformed citizen dangerous,NO disaster
-3081,drilling rig broke loose control violent winter storm incompetent,NO disaster
+3080,would nice would fix radar another violent storm uninformed citizen dangerous,disaster
+3081,drilling rig broke loose control violent winter storm incompetent,disaster
 3082,super red kith red white gel grey volcano,NO disaster
 3083,force factor volcano capsule brand new full read,NO disaster
 3084,sunset like volcano initial thought short lava,NO disaster
@@ -3040,7 +3040,7 @@
 3096,architect behind volcano new york time,disaster
 3097,watched war everyone hate basically best possible movie could get punisher,NO disaster
 3098,new war zone,NO disaster
-3099,sammy war spoke wife next speak else,disaster
+3099,sammy war spoke wife next speak else,NO disaster
 3100,feel like war zone,NO disaster
 3101,think time cup tea scone tackle war zone wonder many packet ill find,NO disaster
 3102,look like war zone though,NO disaster
@@ -3060,13 +3060,13 @@
 3116,anniversary bomb important learn history ban,disaster
 3117,class class weapon,NO disaster
 3118,really glad hear world want peaceful world without,NO disaster
-3119,weapon give benefit doubt huge still mature,NO disaster
+3119,weapon give benefit doubt huge still mature,disaster
 3120,engineer weapon thanks,NO disaster
 3121,helpful tip asteroid,NO disaster
 3122,favor keeping dangerous weapon hand start,NO disaster
 3123,security expert report way keep stop march nuclear weapon,disaster
 3124,make good use weapon excel,NO disaster
-3125,deray cop salary free car free rent free weapon license kill rape,NO disaster
+3125,deray cop salary free car free rent free weapon license kill rape,disaster
 3126,park,NO disaster
 3127,new plan nuclear yesterday defense minister made clear nuke,disaster
 3128,navy say fired sidearm defense terrorist attack face,disaster
@@ -3081,7 +3081,7 @@
 3138,video guide red whirlwind,NO disaster
 3139,studio channel update,NO disaster
 3140,whirlwind romance dress,NO disaster
-3141,blazing saddle show wild fire,NO disaster
+3141,blazing saddle show wild fire,disaster
 3142,massive field fire throughout fire eastern german,disaster
 3143,complain pa wild fire taking home like north flood right,disaster
 3144,wife take holiday historically since met get special treatment bonfire start wild,NO disaster
@@ -3090,23 +3090,23 @@
 3147,cause property damage cause wild fire,disaster
 3148,hey house burned ca wild fire bought gift card buy clothes,NO disaster
 3149,wild global climate change excess,disaster
-3150,wild fire blow mind every time,NO disaster
+3150,wild fire blow mind every time,disaster
 3151,wild fire getting anywhere near,disaster
 3152,stampede fire brought love make tame wild heart,NO disaster
 3153,go home natural selection taken debt extreme wild fire water supply fail,disaster
 3154,evening news cover tent collapse wild fire mention worst parenthood video date narrative,NO disaster
 3155,wild,disaster
 3156,wild fire continue burn,disaster
-3157,one wild fire something mid west ever show dont pop around,disaster
+3157,one wild fire something mid west ever show dont pop around,NO disaster
 3158,sad wild hope,disaster
 3159,wild fire state sad,disaster
 3160,wildfire lover know,disaster
 3161,finger rock wildfire acre,disaster
 3162,governor headed site wildfire,disaster
 3163,get babe wildfire,disaster
-3164,quick made finger rock fire last night check wildfire,NO disaster
+3164,quick made finger rock fire last night check wildfire,disaster
 3165,wolverine fire result,disaster
-3166,eat wildfire chicken salad without thinking missing,disaster
+3166,eat wildfire chicken salad without thinking missing,NO disaster
 3167,road road sister two road closed general,disaster
 3168,fire rage forest service sound alarm sharply rising wildfire cost,disaster
 3169,careful,NO disaster
@@ -3117,11 +3117,11 @@
 3174,rocky fire wildfire,disaster
 3175,machine really helicopter wildfire,disaster
 3176,forest grove grass fire sparked tractor quickly,disaster
-3177,san windstorm insurance reform key coastal state spoke,disaster
+3177,san windstorm insurance reform key coastal state spoke,NO disaster
 3178,seek comment rule change windstorm insurer,NO disaster
 3179,new roof hardy going inspection,NO disaster
 3180,insurance seek comment rule change windstorm insurer,NO disaster
-3181,board percent rate windstorm insurance association board director,NO disaster
+3181,board percent rate windstorm insurance association board director,disaster
 3182,vixen windstorm track marc,NO disaster
 3183,seen one day look like went threw windstorm,NO disaster
 3184,great time group much sleep windstorm,NO disaster
@@ -3133,8 +3133,8 @@
 3190,still acting like one,NO disaster
 3191,officer wounded suspect exchange police officer wounded suspect exchange gunfire,disaster
 3192,police officer wounded suspect dead police officer wounded,disaster
-3193,pope talk wounded,disaster
-3194,wounded warrior,disaster
+3193,pope talk wounded,NO disaster
+3194,wounded warrior,NO disaster
 3195,man seriously wounded auburn shooting,disaster
 3196,suspected gang member four people wounded seven attack bus travelled,disaster
 3197,officer wounded suspect exchange gunfire,disaster
@@ -3161,13 +3161,13 @@
 3218,last week blast hosting dinner movie night,NO disaster
 3219,figured get music rental car take night drive nowhere hopefully without,NO disaster
 3220,emotional wreck watching,NO disaster
-3221,interesting watching train wreck taking acid kind way,NO disaster
+3221,interesting watching train wreck taking acid kind way,disaster
 3222,throat wreck,NO disaster
 3223,man face manslaughter charge following fatal wreck related,disaster
 3225,emotional wreck someone hold damn video,NO disaster
 3226,added video burnt black nervous wreck,NO disaster
-3227,wreck uneven layer,NO disaster
-3228,wreck cut beat,NO disaster
+3227,wreck uneven layer,disaster
+3228,wreck cut beat,disaster
 3229,know train believe happening look,NO disaster
 3230,wreckage,disaster
 3231,wreckage investigator family,disaster
@@ -3183,7 +3183,7 @@
 3241,word stock,NO disaster
 3242,almost van day guy brake also care animal get used,NO disaster
 3243,manner human would parcel baby though car junk,NO disaster
-3244,thought said night near,NO disaster
+3244,thought said night near,disaster
 3245,ease mind make feel,NO disaster
 3246,think notification aid,NO disaster
 3247,word bob stock say,NO disaster
