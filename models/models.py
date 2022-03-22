@@ -116,7 +116,7 @@ def lstm_v3(max_len, max_words, embedding_size = None, X = None, weights = None)
     # model.add(Dense(512, activation="relu"))
     # model.add(Dropout(0.4))
     model.add(Dense(1, activation="sigmoid"))
-    model.compile(loss='categorical_crossentropy',
+    model.compile(loss='binary_crossentropy',
                   optimizer=optimizer, metrics=['accuracy'])
     return model
 
@@ -155,7 +155,7 @@ def lstm_v6(max_len, max_words, embedding_size = None, X = None, weights = None)
     model.add(Dense(128, activation="relu"))
     model.add(Dropout(0.2))
     model.add(Dense(1, activation='sigmoid'))
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
     print(model.summary())
     return model
 
@@ -179,7 +179,7 @@ def best_cnn(max_len, max_words, embedding_size, weights = None, X = None, filte
     model.add(Dense(1))
     model.add(Activation('sigmoid'))
     # model.add(BatchNormalization())
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=["accuracy"])
+    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=["accuracy"])
     return model
 
 def cnn_v0(max_len, max_words, embedding_size, weights = None, X = None, filters = 250, kernel_size = 3, hidden_dims = 250):
@@ -309,7 +309,7 @@ def bnn_v1(train_size,max_len, max_words, embedding_size, weights = None, X = No
     drop1 = Dropout(0.5)(features)
     outputs = Dense(1, activation="sigmoid")(drop1)
     model = Model(inputs=inputs1, outputs=outputs)
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
     print(model.summary())
     return model
 
@@ -332,7 +332,7 @@ def hybrid_v1(max_len, max_words, embedding_size, weights = None, X = None, filt
     drop2 = Dropout(0.5)(dense1)
     output = Dense(1, activation="sigmoid")(drop2)
     model = Model(inputs=[inputs1, inputs2], outputs=output)
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=["accuracy"])
+    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=["accuracy"])
     return model
 
 def bert_v1(max_len, max_words, embedding_size, weights = None, X = None, filters = 250, kernel_size = 3, hidden_dims = 250):
@@ -355,7 +355,7 @@ def bert_v1(max_len, max_words, embedding_size, weights = None, X = None, filter
     y = Dense(1, activation='softmax', name='outputs')(X)
     model = Model(inputs=[input_ids, mask], outputs=y)
     model.layers[2].trainable = False
-    model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["acc"])
+    model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["acc"])
     return model
 
 def bert_v2():
