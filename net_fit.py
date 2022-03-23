@@ -42,6 +42,35 @@ params_SGD = {
     "tol": np.arange(0.01, 1, 0.01)
 }
 
+def construct_embedding_matrix(glove_file, word_index):
+    embedding_dict = {}
+    import gzip
+    import shutil
+    with gzip.open('glove_file', 'rb') as f_in:
+        with open('glove.txt', 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+    with open('glove_txt','r') as f:
+        for line in f:
+            values=line.split()
+            # get the word
+            word=values[0]
+            if word in word_index.keys():
+                # get the vector
+                vector = np.asarray(values[1:], 'float32')
+                embedding_dict[word] = vector
+    # oov words (out of vacabulary words) will be mapped to 0 vectors
+
+    num_words=len(word_index)+1
+    #initialize it to 0
+    embedding_matrix=np.zeros((num_words, EMBEDDING_VECTOR_LENGTH))
+
+    for word,i in tqdm.tqdm(word_index.items()):
+        if i < num_words:
+            vect=embedding_dict.get(word, [])
+            if len(vect)>0:
+                embedding_matrix[i] = vect[:EMBEDDING_VECTOR_LENGTH]
+    return embedding_matrix
+
 def create_w2vc(sentences, vector_size = 200):
 
     word_model = Word2Vec(sentences, vector_size=vector_size, min_count=1, window=5)
@@ -50,7 +79,7 @@ def create_w2vc(sentences, vector_size = 200):
     return vocab_size, embedding_size, pretrained_weights
 
 def load_w2vc():
-    word2vec_path = 'GoogleNews-vectors-negative300.bin.gz'
+    word2vec_path = 'data/GoogleNews-vectors-negative300.bin.gz'
     word2vec = KeyedVectors.load_word2vec_format(word2vec_path, binary=True)
     weights = word2vec.vectors
     vocab_size, embedding_size = word2vec.vectors.shape
@@ -92,7 +121,7 @@ def model_data(model_cls, params, grid_cv = False, x = None, y = None):
         model = model_cls(**params)
     return model
 
-def train_net(preprocessor, reshape=False, split = False, model="normal"):
+def train_net(preprocessor, reshape=False, split = False, model="normal", is_glove = False, is_create_w2vc = False):
     
     feature = "text"
 
@@ -131,10 +160,13 @@ def train_net(preprocessor, reshape=False, split = False, model="normal"):
     else:
         tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased", return_dict=False)
         # X = tokenizer(X_train[feature].tolist(), pad_to_max_length=max(len_train_words), max_length=max(len_train_words))
-        X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
+        # X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
+        X = X_train.text.tolist()
+        X = ' '.join(X)
+        X = tokenizer.encode_plus(X, return_tensors="tf")
+        print(X)
 
-
-    if split:
+    if split and model!="bert":
         X_train, X_val, y_train, y_val = train_test_split(X, y_train, test_size = 0.1, random_state = 42)
 
         print(f"Numbers of NO disasters {(y_train==0).sum()/len(y_train)*100}%")
@@ -156,15 +188,20 @@ def train_net(preprocessor, reshape=False, split = False, model="normal"):
 
     # y_train = y_train.astype(np.float).reshape((-1,1))
 
-    embedding_size, vocab_size, weights = create_w2vc(sentences)
+    if is_glove:
+        pass
+    elif is_create_w2vc:
+        embedding_size, vocab_size, weights = create_w2vc(sentences)
+    else:
+        embedding_size, vocab_size, weights = load_w2vc()
     # model = hybrid_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = cnn_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = cnn_v0(max(len_train_words), len(words), embedding_size, X_train, weights)
-    model = lstm_v5(max(len_train_words), len(words), embedding_size, X_train, weights)
+    # model = lstm_v5(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = best_cnn(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bnn_v1(X_train.shape[0]*0.9, max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bert_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
-    # model = bert_v2()
+    model = bert_v2()
     
     model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
           validation_split=0.2,)
