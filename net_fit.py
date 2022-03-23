@@ -1,5 +1,5 @@
 import pandas as pd
-from transformers import BertTokenizer, DistilBertTokenizerFast
+from transformers import BertTokenizer, DistilBertTokenizerFast, TFDistilBertModel
 
 from data.data_processing import DisasterProcessor
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -18,7 +18,7 @@ from sklearn.linear_model import SGDClassifier
 import pickle
 from xgboost import XGBClassifier
 from models.models import lstm_v1, lstm_v2, lstm_v3, lstm_v4, lstm_v5, lstm_v6, cnn_v1, cnn_v2, cnn_v3, cnn_v0, \
-    best_cnn, bnn_v1, hybrid_v1, bert_v1, bert_v2
+    best_cnn, bnn_v1, hybrid_v1, bert_v1, bert_v2, bert_v3
 import tensorflow as tf
 
 from sklearn.svm import SVC
@@ -174,9 +174,10 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
         # X = tokenizer(X_train[feature].tolist(), pad_to_max_length=max(len_train_words), max_length=max(len_train_words))
         # X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
         X = tokenizer(X_train.text.to_list(), truncation=True, max_length=max(len_train_words), padding="max_length", return_tensors='tf')
-        print(X)
+        input_ids = tf.convert_to_tensor(X['input_ids'])
+        att_mask = tf.convert_to_tensor(X['attention_mask'])
         y_tensors = tf.convert_to_tensor(y_train[:])
-        train_tf_dataset = tf.data.Dataset.from_tensor_slices(((dict(X)),y_tensors))
+        train_tf_dataset = tf.data.Dataset.from_tensor_slices((dict(X), y_tensors))
 
     callback = tf.keras.callbacks.EarlyStopping(monitor='val_loss',) #min_delta= 1e-1)
 
@@ -185,6 +186,7 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
     batch_size = 64
     epochs = 2
 
+    train_tf_dataset = train_tf_dataset.shuffle(len(X)).batch(batch_size)
     if reshape:
         X_train = X_train.reshape(X_train.shape[0], 1, X_train.shape[1]) #Comment to not reshape
 
@@ -203,7 +205,8 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
     # model = best_cnn(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bnn_v1(X_train.shape[0]*0.9, max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bert_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
-    model = bert_v2()
+    DistilBERTmodel = TFDistilBertModel.from_pretrained('distilbert-base-uncased')
+    model = bert_v3(DistilBERTmodel, max(len_train_words))
     if model != "bert":
         # model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
         #       validation_split=0.2,)
