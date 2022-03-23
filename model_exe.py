@@ -118,7 +118,7 @@ if __name__ == "__main__":
           np.random.seed(42)
           # train_model(DisasterProcessor)
           # apply_model()
-          train_net(DisasterProcessor(), reshape=False, split=True, model = "bert")
+          train_net(DisasterProcessor(), reshape=False, split=False, model = "bert")
           # apply_net()
      # except Exception as e:
      #      print(e)

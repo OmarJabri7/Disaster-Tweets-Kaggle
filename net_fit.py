@@ -144,6 +144,17 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
           (len(words), len(TRAINING_VOCAB)))
     print("Max sentence length is %s" % max(len_train_words))
 
+    if split:
+        X_train, X_val, y_train, y_val = train_test_split(X_train.text, y_train, test_size = 0.1, random_state = 42)
+
+        print(f"Numbers of NO disasters {(y_train==0).sum()/len(y_train)*100}%")
+
+        print(f"Numbers of disasters {(y_train==1).sum()/len(y_train)*100}%")
+
+    else:
+        # X_train = X #Comment to use with test set
+        pass
+
     if(model != "bert"):
         tok = Tokenizer(num_words=len(TRAINING_VOCAB),
                         lower=True, char_level=False)
@@ -161,20 +172,9 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
         tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased", return_dict=False)
         # X = tokenizer(X_train[feature].tolist(), pad_to_max_length=max(len_train_words), max_length=max(len_train_words))
         # X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
-        X = X_train.text.tolist()
-        X = ' '.join(X)
-        X = tokenizer.encode_plus(X, return_tensors="tf")
+        X = tokenizer(X_train.text.to_list(), truncation=True, max_length=max(len_train_words), padding="max_length", return_tensors='tf')
         print(X)
-
-    if split and model!="bert":
-        X_train, X_val, y_train, y_val = train_test_split(X, y_train, test_size = 0.1, random_state = 42)
-
-        print(f"Numbers of NO disasters {(y_train==0).sum()/len(y_train)*100}%")
-
-        print(f"Numbers of disasters {(y_train==1).sum()/len(y_train)*100}%")
-
-    else:
-        X_train = X #Comment to use with test set
+        train_tf_dataset = tf.data.Dataset.from_tensor_slices(((X), y_train))
 
     callback = tf.keras.callbacks.EarlyStopping(monitor='val_loss',) #min_delta= 1e-1)
 
@@ -202,10 +202,13 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
     # model = bnn_v1(X_train.shape[0]*0.9, max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = bert_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     model = bert_v2()
-    
-    model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
-          validation_split=0.2,)
+    if model != "bert":
+        model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
+              validation_split=0.2,)
               # callbacks=[tensorboard_callback])
+    else:
+        model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,
+                  validation_split=0.2, )
     if split:
         score, acc = model.evaluate([X_val], y_val,
                                     batch_size=batch_size)
