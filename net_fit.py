@@ -197,6 +197,7 @@ def train_net(preprocessor, reshape=False, split=False, model="normal", is_glove
     epochs = 1
 
     train_tf_dataset = train_tf_dataset.shuffle(len(X)).batch(batch_size)
+    val_tf_dataset = val_tf_dataset.shuffle(len(X_val)).batch(batch_size)
     if reshape:
         # Comment to not reshape
         X_train = X_train.reshape(X_train.shape[0], 1, X_train.shape[1])
