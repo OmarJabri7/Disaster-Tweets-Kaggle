@@ -339,15 +339,15 @@ def bert_v1(max_len, max_words, embedding_size, weights = None, X = None, filter
     from transformers import AutoTokenizer, TFAutoModel
     import tensorflow_addons as tfa  # Adam with weight decay
     # optimizer = tfa.optimizers.AdamW(0.005, learning_rate=0.01)
-    tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
-    bert = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
-    tokenizer.encode_plus("sentence", max_length=max_len, truncation=True,
-                          pad_to_max_length=True, add_special_tokens=True,
-                          return_attention_mask=True, return_token_type_ids=False,
-                          return_tensors='tf')
+    # tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
+    bert = TFDistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased')
+    # tokenizer.encode_plus("sentence", max_length=max_len, truncation=True,
+    #                       pad_to_max_length=True, add_special_tokens=True,
+    #                       return_attention_mask=True, return_token_type_ids=False,
+    #                       return_tensors='tf')
     input_ids = tf.keras.layers.Input(shape=(max_len,), name='input_ids', dtype='int32')
     mask = tf.keras.layers.Input(shape=(max_len,), name='attention_mask', dtype='int32')
-    embeddings = bert(input_ids, attention_mask=mask)[0]  # we only keep tensor 0 (last_hidden_state)
+    embeddings = bert(input_ids, attention_mask=mask) # we only keep tensor 0 (last_hidden_state)
     X = GlobalAveragePooling1D()(embeddings)  # reduce tensor dimensionality
     X = BatchNormalization()(X)
     X = Dense(128, activation='relu')(X)
@@ -356,6 +356,7 @@ def bert_v1(max_len, max_words, embedding_size, weights = None, X = None, filter
     model = Model(inputs=[input_ids, mask], outputs=y)
     model.layers[2].trainable = False
     model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["acc"])
+    print(model.summary())
     return model
 
 def bert_v2():
@@ -363,5 +364,26 @@ def bert_v2():
     optimizer = tf.keras.optimizers.Adam(learning_rate=3e-5, epsilon=1e-08, clipnorm=1.0)
     loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
     metric = tf.keras.metrics.SparseCategoricalAccuracy('accuracy')
-    model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
+    model.compile(optimizer=optimizer, loss="binary_crossentropy", metrics=["acc"])
+    return model
+
+def bert_v3(transformer, max_len):
+    for layer in transformer.layers:
+        layer.trainable = True
+        # Input layers
+    input_ids_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_ids')
+    input_attention_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='attention_mask')
+
+    last_hidden_state = transformer([input_ids_layer, input_attention_layer])[0]
+    cls_token = last_hidden_state[:, 0, :]
+    # Hidden layers
+    #     output = keras.layers.Dense(8,kernel_initializer=keras.initializers.GlorotUniform(seed=1),  kernel_constraint=None,
+    #                                 bias_initializer='zeros',
+    #                                 activation='relu')(cls_token)
+    #     output = keras.layers.Dropout(0.2)(output)
+    #     #output = keras.layers.Dense(8, activation = 'relu')(output)
+    output = tf.keras.layers.Dense(1, activation='sigmoid')(cls_token)
+    # Define the model
+    model = tf.keras.Model([input_ids_layer, input_attention_layer], output)
+    model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["acc"])
     return model
