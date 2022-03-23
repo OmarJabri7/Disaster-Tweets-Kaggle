@@ -129,6 +129,8 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
 
     X_train, y_train = train_data[0], train_data[1]
 
+    print(y_train)
+
     X_train.to_csv("outputs/clean_data.csv")
 
     sentences = [[word for word in tokens.split(" ")]
@@ -143,7 +145,6 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
     print("%s words total, with a vocabulary size of %s" %
           (len(words), len(TRAINING_VOCAB)))
     print("Max sentence length is %s" % max(len_train_words))
-
     if split:
         X_train, X_val, y_train, y_val = train_test_split(X_train.text, y_train, test_size = 0.1, random_state = 42)
 
@@ -174,7 +175,8 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
         # X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
         X = tokenizer(X_train.text.to_list(), truncation=True, max_length=max(len_train_words), padding="max_length", return_tensors='tf')
         print(X)
-        train_tf_dataset = tf.data.Dataset.from_tensor_slices(((X), y_train))
+        y_tensors = tf.convert_to_tensor(y_train[:])
+        train_tf_dataset = tf.data.Dataset.from_tensor_slices(((dict(X)),y_tensors))
 
     callback = tf.keras.callbacks.EarlyStopping(monitor='val_loss',) #min_delta= 1e-1)
 
@@ -203,12 +205,14 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
     # model = bert_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     model = bert_v2()
     if model != "bert":
-        model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
-              validation_split=0.2,)
+        # model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
+        #       validation_split=0.2,)
               # callbacks=[tensorboard_callback])
+        model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,)
+                  # validation_split=0.2, )
     else:
-        model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,
-                  validation_split=0.2, )
+        model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,)
+                # validation_split=0.2, )
     if split:
         score, acc = model.evaluate([X_val], y_val,
                                     batch_size=batch_size)
