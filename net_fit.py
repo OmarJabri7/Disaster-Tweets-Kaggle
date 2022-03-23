@@ -243,8 +243,6 @@ def train_net(preprocessor, reshape=False, split=False, model="normal", is_glove
 
     # model.save('outputs/network.h5')
     # Save Tokenizer i.e. Vocabulary
-    with open('outputs/tokenizer.pickle', 'wb') as handle:
-        pickle.dump(tok, handle, protocol=pickle.HIGHEST_PROTOCOL)
     X_test = test_data[feature]
     if reshape:
         X_test = X_test.reshape(X_test.shape[0], 1, X_test.shape[1])
@@ -253,6 +251,8 @@ def train_net(preprocessor, reshape=False, split=False, model="normal", is_glove
         X_test = pad_sequences(sequences, maxlen=max(len_train_words))
         X_test = X_test.astype(np.float)
         y_pred = model.predict([X_test])
+        with open('outputs/tokenizer.pickle', 'wb') as handle:
+            pickle.dump(tok, handle, protocol=pickle.HIGHEST_PROTOCOL)
     else:
         X_test = tokenizer(X_test.to_list(), truncation=True, max_length=max(
             len_train_words), padding="max_length", return_tensors='tf')
