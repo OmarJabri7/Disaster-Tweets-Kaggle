@@ -226,7 +226,7 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
         print('Test loss:', score)
         print('Test accuracy:', acc)
 
-    model.save('outputs/network.h5')
+    # model.save('outputs/network.h5')
     # Save Tokenizer i.e. Vocabulary
     with open('outputs/tokenizer.pickle', 'wb') as handle:
         pickle.dump(tok, handle, protocol=pickle.HIGHEST_PROTOCOL)
