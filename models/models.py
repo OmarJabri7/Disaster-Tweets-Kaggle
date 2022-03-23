@@ -8,7 +8,7 @@ from keras import backend as K
 
 import tensorflow_probability as tfp
 from transformers import BertModel, BertTokenizer, DistilBertTokenizerFast, DistilBertModel, \
-    TFBertForSequenceClassification, TFDistilBertForSequenceClassification
+    TFBertForSequenceClassification, TFDistilBertForSequenceClassification, TFBertModel
 
 
 def recall_m(y_true, y_pred):
@@ -361,7 +361,7 @@ def bert_v1(max_len, max_words, embedding_size, weights = None, X = None, filter
 
 def bert_v2():
     model = TFDistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased")
-    optimizer = tf.keras.optimizers.Adam(learning_rate=3e-5, epsilon=1e-08, clipnorm=1.0)
+    optimizer = tf.keras.optimizers.Adam(learning_rate=2e-5, epsilon=1e-08, clipnorm=1.0)
     loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
     metric = tf.keras.metrics.SparseCategoricalAccuracy('accuracy')
     model.compile(optimizer=optimizer, loss="binary_crossentropy", metrics=["acc"])
@@ -386,4 +386,22 @@ def bert_v3(transformer, max_len):
     # Define the model
     model = tf.keras.Model([input_ids_layer, input_attention_layer], output)
     model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["acc"])
+    return model
+
+def bert_v4(max_len):
+    input_ids_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_ids')
+    input_attention_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='attention_mask')
+    # input_seg = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_segments')
+    model = TFBertModel.from_pretrained("bert-base-uncased")
+    seq_output = model([input_ids_layer, input_attention_layer])[0]
+    X = GlobalAveragePooling1D()(seq_output)  # reduce tensor dimensionality
+    X = BatchNormalization()(X)
+    X = Dense(128, activation='relu')(X)
+    X = Dropout(0.1)(X)
+    y = Dense(2, activation='softmax', name='outputs')(X)
+    model = tf.keras.Model([input_ids_layer, input_attention_layer], y)
+    optimizer = tf.keras.optimizers.Adam(learning_rate=2e-5, epsilon=1e-08, clipnorm=1.0)
+    loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+    metric = tf.keras.metrics.SparseCategoricalAccuracy('accuracy')
+    model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
     return model
