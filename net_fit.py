@@ -16,7 +16,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.linear_model import SGDClassifier
 import pickle
-from xgboost import XGBClassifier
+# from xgboost import XGBClassifier
 from models.models import lstm_v1, lstm_v2, lstm_v3, lstm_v4, lstm_v5, lstm_v6, cnn_v1, cnn_v2, cnn_v3, cnn_v0, \
     best_cnn, bnn_v1, hybrid_v1, bert_v1, bert_v2, bert_v3
 import tensorflow as tf
@@ -78,12 +78,12 @@ def create_w2vc(sentences, vector_size = 200):
     vocab_size, embedding_size = pretrained_weights.shape
     return vocab_size, embedding_size, pretrained_weights
 
-def load_w2vc():
-    word2vec_path = 'data/GoogleNews-vectors-negative300.bin.gz'
-    word2vec = KeyedVectors.load_word2vec_format(word2vec_path, binary=True)
-    weights = word2vec.vectors
-    vocab_size, embedding_size = word2vec.vectors.shape
-    return vocab_size, embedding_size, weights
+# def load_w2vc():
+#     word2vec_path = 'data/GoogleNews-vectors-negative300.bin.gz'
+#     word2vec = KeyedVectors.load_word2vec_format(word2vec_path, binary=True)
+#     weights = word2vec.vectors
+#     vocab_size, embedding_size = word2vec.vectors.shape
+#     return vocab_size, embedding_size, weights
 
 def tokenize_data(x, vocab, len_train_words):
     tokenizer = Tokenizer(num_words=len(vocab),
@@ -197,7 +197,8 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
     elif is_create_w2vc:
         embedding_size, vocab_size, weights = create_w2vc(sentences)
     else:
-        embedding_size, vocab_size, weights = load_w2vc()
+        # embedding_size, vocab_size, weights = load_w2vc()
+        pass
     # model = hybrid_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = cnn_v1(max(len_train_words), len(words), embedding_size, X_train, weights)
     # model = cnn_v0(max(len_train_words), len(words), embedding_size, X_train, weights)
@@ -225,8 +226,10 @@ def train_net(preprocessor, reshape=False, split = False, model="normal", is_glo
                                     batch_size=batch_size)
         print('Test loss:', score)
         print('Test accuracy:', acc)
-
-    # model.save('outputs/network.h5')
+    if(model != "bert"):
+        model.save('outputs/network.h5')
+    else:
+        model.save('outputs/bert_network.h5', save_format = 'tf')
     # Save Tokenizer i.e. Vocabulary
     with open('outputs/tokenizer.pickle', 'wb') as handle:
         pickle.dump(tok, handle, protocol=pickle.HIGHEST_PROTOCOL)
