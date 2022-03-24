@@ -8,7 +8,7 @@ from keras import backend as K
 
 import tensorflow_probability as tfp
 from transformers import BertModel, BertTokenizer, DistilBertTokenizerFast, DistilBertModel, \
-    TFBertForSequenceClassification, TFDistilBertForSequenceClassification, TFBertModel
+    TFBertForSequenceClassification, TFDistilBertForSequenceClassification, TFBertModel, TFRobertaModel, TFAutoModel
 
 
 def recall_m(y_true, y_pred):
@@ -393,6 +393,30 @@ def bert_v4(max_len):
     input_attention_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='attention_mask')
     # input_seg = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_segments')
     model = TFBertModel.from_pretrained("bert-base-uncased")
+    for layer in model.layers:
+        layer.trainable = False
+    # for param in model.bert.parameters():
+    #     param.requires_grad = False
+    seq_output = model([input_ids_layer, input_attention_layer])[0]
+    X = GlobalAveragePooling1D()(seq_output)  # reduce tensor dimensionality
+    X = BatchNormalization()(X)
+    X = Dense(128, activation='relu')(X)
+    X = Dropout(0.1)(X)
+    y = Dense(2, activation='softmax', name='outputs')(X)
+    model = tf.keras.Model([input_ids_layer, input_attention_layer], y)
+    optimizer = tf.keras.optimizers.Adam(learning_rate=2e-5, epsilon=1e-08, clipnorm=1.0)
+    loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+    metric = tf.keras.metrics.SparseCategoricalAccuracy('accuracy')
+    model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
+    return model
+
+def bert_v5(max_len):
+    input_ids_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_ids')
+    input_attention_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='attention_mask')
+    # input_seg = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_segments')
+    model = TFRobertaModel.from_pretrained("roberta-base")
+    for param in model.roberta.parameters():
+        param.requires_grad = False
     for layer in model.layers:
         layer.trainable = False
     # for param in model.bert.parameters():

@@ -1,5 +1,5 @@
 import pandas as pd
-from transformers import BertTokenizer, DistilBertTokenizerFast, TFDistilBertModel, BertTokenizerFast
+from transformers import BertTokenizer, DistilBertTokenizerFast, TFDistilBertModel, BertTokenizerFast, RobertaTokenizer
 
 from data.data_processing import DisasterProcessor
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -17,7 +17,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.linear_model import SGDClassifier
 import pickle
 from models.models import lstm_v1, lstm_v2, lstm_v3, lstm_v4, lstm_v5, lstm_v6, cnn_v1, cnn_v2, cnn_v3, cnn_v0, \
-    best_cnn, bnn_v1, hybrid_v1, bert_v1, bert_v2, bert_v3, bert_v4
+    best_cnn, bnn_v1, hybrid_v1, bert_v1, bert_v2, bert_v3, bert_v4, bert_v5
 import tensorflow as tf
 
 from sklearn.svm import SVC
@@ -171,8 +171,9 @@ def train_net(preprocessor, reshape=False, split=False, model_name="normal", is_
 
         # X = np.asarray(X).astype('float64')
     else:
-        tokenizer = BertTokenizerFast.from_pretrained(
-            "bert-base-uncased", return_dict=False)
+        # tokenizer = BertTokenizerFast.from_pretrained(
+        #     "bert-base-uncased", return_dict=False)
+        tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
         # X = tokenizer(X_train[feature].tolist(), pad_to_max_length=max(len_train_words), max_length=max(len_train_words))
         # X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
         X = tokenizer(X_train.to_list(), truncation=True, max_length=max(
@@ -222,7 +223,8 @@ def train_net(preprocessor, reshape=False, split=False, model_name="normal", is_
     #     'distilbert-base-uncased')
     # model = bert_v3(DistilBERTmodel, max(len_train_words))
     # model = bert_v2()
-    model = bert_v4(max(len_train_words))
+    # model = bert_v4(max(len_train_words))
+    model = bert_v5(max(len_train_words))
     if model_name != "bert":
         # model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
         #       validation_split=0.2,)
