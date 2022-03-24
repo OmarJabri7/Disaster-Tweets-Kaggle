@@ -393,6 +393,10 @@ def bert_v4(max_len):
     input_attention_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='attention_mask')
     # input_seg = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_segments')
     model = TFBertModel.from_pretrained("bert-base-uncased")
+    for layer in model.layers:
+        layer.trainable = False
+    # for param in model.bert.parameters():
+    #     param.requires_grad = False
     seq_output = model([input_ids_layer, input_attention_layer])[0]
     X = GlobalAveragePooling1D()(seq_output)  # reduce tensor dimensionality
     X = BatchNormalization()(X)
