@@ -1,5 +1,6 @@
 import pandas as pd
-from transformers import BertTokenizer, DistilBertTokenizerFast, TFDistilBertModel, BertTokenizerFast, RobertaTokenizer
+from transformers import BertTokenizer, DistilBertTokenizerFast, TFDistilBertModel, BertTokenizerFast, RobertaTokenizer, \
+    AutoTokenizer
 
 from data.data_processing import DisasterProcessor
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -173,7 +174,7 @@ def train_net(preprocessor, reshape=False, split=False, model_name="normal", is_
     else:
         # tokenizer = BertTokenizerFast.from_pretrained(
         #     "bert-base-uncased", return_dict=False)
-        tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+        tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
         # X = tokenizer(X_train[feature].tolist(), pad_to_max_length=max(len_train_words), max_length=max(len_train_words))
         # X = glue_convert_examples_to_features(X_train, tokenizer, 128, 'mrpc')
         X = tokenizer(X_train.to_list(), truncation=True, max_length=max(
@@ -195,7 +196,7 @@ def train_net(preprocessor, reshape=False, split=False, model_name="normal", is_
         log_dir="outputs/", histogram_freq=1)
 
     batch_size = 64
-    epochs = 1
+    epochs = 10
 
     train_tf_dataset = train_tf_dataset.shuffle(len(X)).batch(batch_size)
     val_tf_dataset = val_tf_dataset.shuffle(len(X_val)).batch(batch_size)
@@ -229,13 +230,13 @@ def train_net(preprocessor, reshape=False, split=False, model_name="normal", is_
         # model.fit([X_train], y_train, batch_size=batch_size,epochs=epochs,
         #       validation_split=0.2,)
         # callbacks=[tensorboard_callback])
-        model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,
-                  # validation_data=val_tf_dataset,
+        history = model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,
+                  validation_data=val_tf_dataset,
                   )
         # validation_split=0.2, )
     else:
-        model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,
-                  # validation_data=val_tf_dataset,
+        history = model.fit(train_tf_dataset, batch_size=batch_size, epochs=epochs,
+                  validation_data=val_tf_dataset,
                   )
         # validation_split=0.2, )
     if split:

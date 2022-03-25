@@ -414,16 +414,17 @@ def bert_v5(max_len):
     input_ids_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_ids')
     input_attention_layer = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='attention_mask')
     # input_seg = tf.keras.layers.Input(shape=(max_len,), dtype=tf.int32, name='input_segments')
-    model = TFRobertaModel.from_pretrained("roberta-base")
-    for param in model.roberta.parameters():
-        param.requires_grad = False
+    model = TFAutoModel.from_pretrained("bert-base-uncased")
+    # for param in model.roberta.parameters():
+    #     param.requires_grad = False
     for layer in model.layers:
         layer.trainable = False
     # for param in model.bert.parameters():
     #     param.requires_grad = False
     seq_output = model([input_ids_layer, input_attention_layer])[0]
-    X = GlobalAveragePooling1D()(seq_output)  # reduce tensor dimensionality
-    X = BatchNormalization()(X)
+    # X = GlobalAveragePooling1D()(seq_output)  # reduce tensor dimensionality
+    X = BatchNormalization()(seq_output)
+    X = GRU(64)(X)
     X = Dense(128, activation='relu')(X)
     X = Dropout(0.1)(X)
     y = Dense(2, activation='softmax', name='outputs')(X)
